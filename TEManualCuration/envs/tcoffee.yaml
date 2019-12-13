@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+dependencies:
+  - t-coffee=12.00.7fb08c2=hfc679d8_1

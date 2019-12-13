@@ -1,0 +1,146 @@
+##gff-version 3
+# Sliced from PaWa58m_nice_SpokBlock_figure.gff using GFFSlicer.py v. 4.01 on 2019-12-09 16:00:18.508783
+# Manual curation of the Spok block of PaWa58m in the nice assembly
+# For figure
+PaWa58m_chromosome_5	GeneMark.hmm3	gene	4	4094	.	+	.	ID=gene00308;Name=Kirc;Note=Pa_5_10116_homolog
+PaWa58m_chromosome_5	GeneMark.hmm3	mRNA	4	4094	.	+	.	ID=mRNA00308;Parent=gene00308;Name=GeneMark.mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	778	815	.	+	.	ID=exon00001.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	778	815	.	+	0	ID=cds00001.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	Intron	816	865	.	+	0	ID=intron00001.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	866	1073	.	+	.	ID=exon00002.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	866	1073	.	+	1	ID=cds00002.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	Intron	1074	1131	.	+	1	ID=intron00002.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	1132	1398	.	+	.	ID=exon00003.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	1132	1398	.	+	0	ID=cds00003.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	Intron	1399	1461	.	+	0	ID=intron00003.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	1462	1562	.	+	.	ID=exon00004.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	1462	1562	.	+	0	ID=cds00004.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	Intron	1563	1622	.	+	0	ID=intron00004.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	1623	1966	.	+	.	ID=exon00005.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	1623	1966	.	+	1	ID=cds00005.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	Intron	1967	2019	.	+	1	ID=intron00005.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	2020	4094	.	+	.	ID=exon00006.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	2020	4094	.	+	2	ID=cds00006.mRNA00308.308;Parent=mRNA00308
+PaWa58m_chromosome_3	GeneMark.hmm3	five_prime_UTR	4	777	.	+	.	ID=PaWa58m.00308-mRNA1-5UTR;Parent=mRNA00308
+PaWa58m_chromosome_5	artemis	gene	9219	12926	.	+	.	ID=gene00309;Name=Uhura1
+PaWa58m_chromosome_5	artemis	mRNA	9219	12926	.	+	.	ID=mRNA00309;Parent=gene00309;Name=GeneMark.mRNA00309;Note=RNAediting_AtoG_pos_937717
+PaWa58m_chromosome_5	artemis	five_prime_UTR	9219	9710	.	+	.	ID=gene00309-five_prime_UTR1;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	exon	9219	9397	.	+	.	ID=exon00001.mRNA00309.309;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	Intron	9398	9500	.	+	0	ID=intron00001.mRNA00309.309;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	exon	9501	9584	.	+	.	ID=exon00002.mRNA00309.309;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	Intron	9585	9654	.	+	0	ID=intron00002.mRNA00309.309;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	exon	9655	12926	.	+	.	ID=exon00003.mRNA00309.309;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	CDS	9711	12926	.	+	0	ID=cds00001.mRNA00309.309;Parent=mRNA00309
+PaWa58m_chromosome_5	artemis	gene	40326	43422	.	-	.	ID=gene00315;Name=Spok4;Note=Pa_5_10_homolog
+PaWa58m_chromosome_5	artemis	three_prime_UTR	40326	40492	.	-	.	ID=gene00315.00315:3UTR;Parent=mRNA00315
+PaWa58m_chromosome_5	artemis	mRNA	40326	43422	.	-	.	ID=mRNA00315;Name=Spok4;Parent=gene00315
+PaWa58m_chromosome_5	artemis	CDS	40493	42769	.	-	0	ID=cds00001.mRNA00315.315;Parent=mRNA00315
+PaWa58m_chromosome_5	artemis	exon	40493	42769	.	-	.	ID=exon00001.mRNA00315.315;Parent=mRNA00315
+PaWa58m_chromosome_5	artemis	Intron	42872	42940	.	-	0	ID=intron00001.mRNA00315.315;Parent=mRNA00315
+PaWa58m_chromosome_5	artemis	five_prime_UTR	42770	43422	.	-	.	ID=gene00315.00315:5UTR;Parent=mRNA00315
+PaWa58m_chromosome_5	artemis	gene	49937	53644	.	+	.	ID=gene00319;Name=Uhura2
+PaWa58m_chromosome_5	artemis	mRNA	49937	53644	.	+	.	ID=mRNA00319;Parent=gene00319;Name=GeneMark.mRNA00319;Note=RNAediting_AtoG_pos_978435
+PaWa58m_chromosome_5	artemis	five_prime_UTR	49937	50428	.	+	.	ID=gene00319-five_prime_UTR1;Parent=mRNA00319
+PaWa58m_chromosome_5	artemis	exon	49937	50115	.	+	.	ID=exon00001.mRNA00319.319;Parent=mRNA00319
+PaWa58m_chromosome_5	artemis	Intron	50116	50218	.	+	0	ID=intron00001.mRNA00319.319;Parent=mRNA00319
+PaWa58m_chromosome_5	artemis	exon	50219	50302	.	+	.	ID=exon00002.mRNA00319.319;Parent=mRNA00319
+PaWa58m_chromosome_5	artemis	Intron	50303	50372	.	+	0	ID=intron00002.mRNA00319.319;Parent=mRNA00319
+PaWa58m_chromosome_5	artemis	exon	50373	53644	.	+	.	ID=exon00003.mRNA00319.319;Parent=mRNA00319
+PaWa58m_chromosome_5	artemis	CDS	50429	53644	.	+	0	ID=cds00001.mRNA00319.319;Parent=mRNA00319
+PaWa58m_chromosome_5	GeneMark.hmm3	gene	98064	101121	.	-	.	ID=gene00326;Name=Spok3;Note=Pa_5_10_homolog
+PaWa58m_chromosome_5	GeneMark.hmm3	mRNA	98064	101121	.	-	.	ID=mRNA00326;Parent=gene00326;Name=Spok3
+PaWa58m_chromosome_5	artemis	three_prime_UTR	98064	98230	.	-	.	ID=gene00326.00326:3UTR;Parent=mRNA00326
+PaWa58m_chromosome_5	GeneMark.hmm3	exon	98231	100468	.	-	.	ID=exon00001.mRNA00326.326;Parent=mRNA00326
+PaWa58m_chromosome_5	GeneMark.hmm3	CDS	98231	100468	.	-	0	ID=cds00001.mRNA00326.326;Parent=mRNA00326
+PaWa58m_chromosome_5	artemis	Intron	100571	100639	.	-	0	ID=intron00001.mRNA00326.00326;Parent=mRNA00326
+PaWa58m_chromosome_5	artemis	five_prime_UTR	100469	101121	.	-	.	ID=gene00326.00326:5UTR;Parent=mRNA00326
+PaWa58m_chromosome_5	artemis	gene	107921	111628	.	+	.	ID=gene00328;Name=Uhura3
+PaWa58m_chromosome_5	artemis	mRNA	107921	111628	.	+	.	ID=mRNAgene00328;Parent=genegene00328;Name=GeneMark.mRNAgene00328;Note=RNAediting_AtoG_pos_978435
+PaWa58m_chromosome_5	artemis	five_prime_UTR	107921	108412	.	+	.	ID=genegene00328-five_prime_UTR1;Parent=mRNAgene00328
+PaWa58m_chromosome_5	artemis	exon	107921	108099	.	+	.	ID=exon00001.mRNAgene00328.328;Parent=mRNAgene00328
+PaWa58m_chromosome_5	artemis	Intron	108100	108202	.	+	0	ID=intron00001.mRNA00328.328;Parent=mRNAgene00328
+PaWa58m_chromosome_5	artemis	exon	108203	108286	.	+	.	ID=exon00002.mRNA00328.328;Parent=mRNA00328
+PaWa58m_chromosome_5	artemis	Intron	108287	108356	.	+	0	ID=intron00002.mRNA00328.328;Parent=mRNA00328
+PaWa58m_chromosome_5	artemis	exon	108357	111628	.	+	.	ID=exon00003.mRNA00328.328;Parent=mRNA00328
+PaWa58m_chromosome_5	artemis	CDS	108413	111628	.	+	0	ID=cds00001.mRNA00328.328;Parent=mRNA00328
+PaWa58m_chromosome_5	RepeatMasker	similarity	4	374	 9.4	-	.	Target "Motif:Bufo" 73 463
+PaWa58m_chromosome_5	RepeatMasker	similarity	378	560	 8.7	-	.	Target "Motif:Bufo" 2 187
+PaWa58m_chromosome_5	RepeatMasker	similarity	4863	5038	15.9	+	.	Target "Motif:Allophryne" 11 287
+PaWa58m_chromosome_5	RepeatMasker	similarity	5505	5617	14.2	+	.	Target "Motif:Bombinator" 1 113
+PaWa58m_chromosome_5	RepeatMasker	similarity	8914	8985	21.8	+	.	Target "Motif:Sapo_LTR" 251 320
+PaWa58m_chromosome_5	RepeatMasker	similarity	13182	13212	18.2	+	.	Target "Motif:(CCCATC)n" 1 31
+PaWa58m_chromosome_5	RepeatMasker	similarity	16147	17420	 8.6	-	.	Target "Motif:Grenouille_i" 7824 9100
+PaWa58m_chromosome_5	RepeatMasker	similarity	17420	17479	15.0	-	.	Target "Motif:Grenouille_i" 4175 4234
+PaWa58m_chromosome_5	RepeatMasker	similarity	17478	18595	18.9	+	.	Target "Motif:Dendrobates" 1606 2755
+PaWa58m_chromosome_5	RepeatMasker	similarity	19250	19290	14.6	-	.	Target "Motif:Bombinator" 192 232
+PaWa58m_chromosome_5	RepeatMasker	similarity	19411	19558	 5.4	+	.	Target "Motif:Cochranella_LTR" 1 155
+PaWa58m_chromosome_5	RepeatMasker	similarity	21220	21650	 6.3	+	.	Target "Motif:Sapo_LTR" 1 426
+PaWa58m_chromosome_5	RepeatMasker	similarity	22062	22103	19.1	-	.	Target "Motif:Rana_i" 4252 4293
+PaWa58m_chromosome_5	RepeatMasker	similarity	22668	22932	17.3	-	.	Target "Motif:Callulops" 40 302
+PaWa58m_chromosome_5	RepeatMasker	similarity	22932	22992	 8.2	-	.	Target "Motif:Nephelobates_LTR" 1 72
+PaWa58m_chromosome_5	RepeatMasker	similarity	24774	24796	 4.5	+	.	Target "Motif:(AAT)n" 1 24
+PaWa58m_chromosome_5	RepeatMasker	similarity	25108	25189	12.2	+	.	Target "Motif:Xenopus_LTR" 1 88
+PaWa58m_chromosome_5	RepeatMasker	similarity	28350	28403	13.0	+	.	Target "Motif:Nephelobates_LTR" 1 54
+PaWa58m_chromosome_5	RepeatMasker	similarity	28404	28439	23.3	+	.	Target "Motif:Leptodactylodon" 3 90
+PaWa58m_chromosome_5	RepeatMasker	similarity	31477	31648	18.1	+	.	Target "Motif:Bombinator" 1 180
+PaWa58m_chromosome_5	RepeatMasker	similarity	32063	32156	10.6	-	.	Target "Motif:Xenopus_LTR" 100 193
+PaWa58m_chromosome_5	RepeatMasker	similarity	33081	33264	10.4	+	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa58m_chromosome_5	RepeatMasker	similarity	34448	34754	12.7	-	.	Target "Motif:Pelobate" 1642 1948
+PaWa58m_chromosome_5	RepeatMasker	similarity	35447	35754	20.2	+	.	Target "Motif:Adenomus" 2 364
+PaWa58m_chromosome_5	RepeatMasker	similarity	37286	37342	20.1	+	.	Target "Motif:(TC)n" 1 55
+PaWa58m_chromosome_5	RepeatMasker	similarity	39826	40122	16.8	-	.	Target "Motif:Dendrobates" 2 319
+PaWa58m_chromosome_5	RepeatMasker	similarity	40156	40211	24.2	+	.	Target "Motif:GA-rich" 1 55
+PaWa58m_chromosome_5	RepeatMasker	similarity	40278	40383	19.3	-	.	Target "Motif:Microhyla" 6 105
+PaWa58m_chromosome_5	RepeatMasker	similarity	43426	43493	16.2	-	.	Target "Motif:Grenouille_LTR" 1 68
+PaWa58m_chromosome_5	RepeatMasker	similarity	48340	48535	11.2	-	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa58m_chromosome_5	RepeatMasker	similarity	56548	56814	12.7	+	.	Target "Motif:Pelobate" 1642 1948
+PaWa58m_chromosome_5	RepeatMasker	similarity	56829	56930	 6.3	+	.	Target "Motif:Sapo_LTR" 329 424
+PaWa58m_chromosome_5	RepeatMasker	similarity	59879	59912	 2.9	-	.	Target "Motif:Padda_LTR" 335 368
+PaWa58m_chromosome_5	RepeatMasker	similarity	59917	60310	11.3	-	.	Target "Motif:Tamasoli_LTR" 1 383
+PaWa58m_chromosome_5	RepeatMasker	similarity	61164	61534	 9.9	+	.	Target "Motif:Padda_LTR" 1 368
+PaWa58m_chromosome_5	RepeatMasker	similarity	61664	61831	12.6	-	.	Target "Motif:Bombinator" 1 175
+PaWa58m_chromosome_5	RepeatMasker	similarity	61945	62042	 8.7	-	.	Target "Motif:Padda_LTR" 232 324
+PaWa58m_chromosome_5	RepeatMasker	similarity	63875	64024	10.7	-	.	Target "Motif:Nephelobates_LTR" 1 150
+PaWa58m_chromosome_5	RepeatMasker	similarity	64103	69564	 0.9	+	.	Target "Motif:Centrolene_i" 70 5556
+PaWa58m_chromosome_5	RepeatMasker	similarity	69565	69747	 0.0	+	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa58m_chromosome_5	RepeatMasker	similarity	74066	74165	19.0	-	.	Target "Motif:Yeti_i" 4426 4525
+PaWa58m_chromosome_5	RepeatMasker	similarity	74171	74220	20.0	-	.	Target "Motif:Yeti_i" 4149 4198
+PaWa58m_chromosome_5	RepeatMasker	similarity	78055	78122	 7.8	+	.	Target "Motif:(GT)n" 1 69
+PaWa58m_chromosome_5	RepeatMasker	similarity	83427	83510	20.3	-	.	Target "Motif:Grenouille_i" 10961 11036
+PaWa58m_chromosome_5	RepeatMasker	similarity	84162	84183	 4.7	+	.	Target "Motif:(CCGA)n" 1 23
+PaWa58m_chromosome_5	RepeatMasker	similarity	86946	87015	 0.0	+	.	Target "Motif:(TTGGTGCAT)n" 1 67
+PaWa58m_chromosome_5	RepeatMasker	similarity	96076	96138	29.7	+	.	Target "Motif:(TCATCC)n" 1 63
+PaWa58m_chromosome_5	RepeatMasker	similarity	101196	101477	11.7	-	.	Target "Motif:Grenouille_LTR" 1 360
+PaWa58m_chromosome_5	RepeatMasker	similarity	106325	106520	11.2	-	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa58m_chromosome_5	RepeatMasker	similarity	111238	111281	11.4	+	.	Target "Motif:Dendrobates" 2206 2249
+PaWa58m_chromosome_5	RepeatMasker	similarity	112949	112968	 0.0	+	.	Target "Motif:(CCG)n" 1 20
+PaWa58m_chromosome_5	RepeatMasker	similarity	117791	119733	 3.0	-	.	Target "Motif:Pelobate" 1 1948
+PaWa58m_chromosome_5	RepeatMasker	similarity	119734	119983	 6.5	-	.	Target "Motif:Padda_LTR" 1 247
+PaWa58m_chromosome_5	RepeatMasker	similarity	124999	125027	 7.2	+	.	Target "Motif:(CTTC)n" 1 29
+PaWa58m_chromosome_5	RepeatMasker	similarity	125165	125218	 5.8	+	.	Target "Motif:(TTTGTTGCC)n" 1 54
+PaWa58m_chromosome_5	RepeatMasker	similarity	127297	127622	26.7	-	.	Target "Motif:Atelopus_LTR" 1 339
+PaWa58m_chromosome_5	RepeatMasker	similarity	128508	128652	20.7	+	.	Target "Motif:Yeti_i" 5106 5256
+PaWa58m_chromosome_5	RepeatMasker	similarity	129103	129198	16.0	+	.	Target "Motif:Bombinator" 216 309
+PaWa58m_chromosome_5	RepeatMasker	similarity	129448	129760	22.3	-	.	Target "Motif:Padda_LTR" 75 368
+PaWa58m_chromosome_5	RepeatMasker	similarity	132158	132174	 0.0	+	.	Target "Motif:(AGG)n" 1 17
+PaWa58m_chromosome_5	RepeatMasker	similarity	132550	132655	12.3	-	.	Target "Motif:Dendrobates" 2882 2987
+PaWa58m_chromosome_5	RepeatMasker	similarity	133134	133171	12.0	+	.	Target "Motif:(CCCTCCT)n" 1 37
+PaWa58m_chromosome_5	RepeatMasker	similarity	135472	136102	31.8	+	.	Target "Motif:Discoglosse" 1 631
+PaWa58m_chromosome_5	RepeatMasker	similarity	136117	136924	31.6	+	.	Target "Motif:Discoglosse" 922 1729
+PaWa58m_chromosome_5	RepeatMasker	similarity	138333	138371	 2.6	+	.	Target "Motif:(CATCTGC)n" 1 39
+PaWa58m_chromosome_5	RepeatMasker	similarity	141238	141284	10.2	+	.	Target "Motif:(ACACGGC)n" 1 45
+PaWa58m_chromosome_5	RepeatMasker	similarity	143180	143205	 4.0	+	.	Target "Motif:(GGAGA)n" 1 28
+PaWa58m_chromosome_5	RepeatMasker	similarity	150458	150550	11.8	-	.	Target "Motif:Pelobate" 1851 1943
+PaWa58m_chromosome_5	RepeatMasker	similarity	155445	155476	 3.2	+	.	Target "Motif:(TCTTCC)n" 1 32
+PaWa58m_chromosome_5	RepeatMasker	similarity	155863	155950	20.7	+	.	Target "Motif:Dukkeobi_LTR" 276 362
+PaWa58m_chromosome_5	RepeatMasker	similarity	159595	159702	23.7	-	.	Target "Motif:Hama_LTR" 138 244
+PaWa58m_chromosome_5	RepeatMasker	similarity	160079	160663	34.8	+	.	Target "Motif:Rana_i" 3894 4470
+PaWa58m_chromosome_5	RepeatMasker	similarity	160170	162162	40.1	+	.	Target "Motif:Crapaud_i" 3794 5784
+PaWa58m_chromosome_5	RepeatMasker	similarity	163169	163535	 6.7	+	.	Target "Motif:Dukkeobi_LTR" 1 362
+PaWa58m_chromosome_5	RepeatMasker	similarity	163680	163792	14.2	-	.	Target "Motif:Bombinator" 1 113
+PaWa58m_chromosome_5	RepeatMasker	similarity	164259	164434	16.2	-	.	Target "Motif:Allophryne" 11 287
+PaWa58m_chromosome_5	RepeatMasker	similarity	165512	165610	 7.1	-	.	Target "Motif:Centrolene_LTR" 1 99
+PaWa58m_chromosome_5	RepeatMasker	similarity	165690	165830	14.7	-	.	Target "Motif:Nephelobates_LTR" 298 434
+PaWa58m_chromosome_5	RepeatMasker	similarity	165716	166049	28.3	+	.	Target "Motif:Atelopus_LTR" 41 364
+PaWa58m_chromosome_5	RepeatMasker	similarity	165848	166210	20.6	-	.	Target "Motif:Nephelobates_LTR" 4 323
+PaWa58m_chromosome_5	RepeatMasker	similarity	167220	167457	11.3	+	.	Target "Motif:Schoutedenella" 1 231

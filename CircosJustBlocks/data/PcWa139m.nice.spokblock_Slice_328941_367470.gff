@@ -1,0 +1,83 @@
+##gff-version 3
+# Sliced from PcWa139m.nice.spokblock.gff using GFFSlicer.py v. 4.01 on 2019-12-09 16:00:21.468081
+# Manual curation of the Spok block of PcWa139m in the nice assembly by Aaron A. Vogan
+# Last update: 2019.12.05
+PcWa139m_chromosome_5	RepeatMasker	similarity	4	374	10.3	-	.	Target="Motif:Bufo" 73 463
+PcWa139m_chromosome_5	RepeatMasker	similarity	378	560	14.3	-	.	Target="Motif:Bufo" 3 187
+PcWa139m_chromosome_5	artemis	gene	4	11723	.	+	.	ID=Kirc.gene;Name=Kirc;Note=Pa_5_10116_homolog
+PcWa139m_chromosome_5	artemis	CDS	662	814	.	+	0	ID=Kirc.mRNA:CDS:2;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	CDS	1484	1668	.	+	0	ID=Kirc.mRNA:CDS:15;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	CDS	1751	2017	.	+	0	ID=Kirc.mRNA:CDS:11;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	CDS	2081	2128	.	+	0	ID=Kirc.mRNA:CDS:14;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	CDS	2189	2275	.	+	0	ID=Kirc.mRNA:CDS:17;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	CDS	2352	2579	.	+	0	ID=Kirc.mRNA:CDS:18;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	CDS	11022	11723	.	+	0	ID=Kirc.mRNA:CDS:27;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	mRNA	4	11723	.	+	.	ID=Kirc.mRNA;Name=Kirc;Parent=Kirc.gene
+PcWa139m_chromosome_5	artemis	exon	662	814	.	+	.	ID=Kirc.mRNA:exon:2;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	exon	1484	1668	.	+	.	ID=Kirc.mRNA:exon:15;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	exon	1751	2017	.	+	.	ID=Kirc.mRNA:exon:21;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	exon	2081	2128	.	+	.	ID=Kirc.mRNA:exon:22;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	exon	2189	2275	.	+	.	ID=Kirc.mRNA:exon:23;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	exon	2352	2579	.	+	.	ID=Kirc.mRNA:exon:20;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	exon	11022	11723	.	+	.	ID=Kirc.mRNA:exon:27;Name=Kirc;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	transposable_element	871	1483	.	+	.	ID=Kirc.gene:hyla_LTR;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	intron	1752	2016	.	+	.	ID=Kirc.gene:intron1;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	artemis	five_prime_UTR	4	661	.	+	.	ID=Kirc.mRNA-3UTR;Parent=Kirc.mRNA
+PcWa139m_chromosome_5	RepeatMasker	similarity	871	1483	12.1	-	.	Target="Motif:Hyla" 5834 6466
+PcWa139m_chromosome_5	RepeatMasker	similarity	1686	1709	 4.3	+	.	Target="Motif:(TA)n" 1 25
+PcWa139m_chromosome_5	RepeatMasker	similarity	1781	1823	 9.1	+	.	Target="Motif:A-rich" 1 39
+PcWa139m_chromosome_5	RepeatMasker	similarity	2754	3035	19.7	+	.	Target="Motif:Crapaud" 173 447
+PcWa139m_chromosome_5	RepeatMasker	similarity	3292	3338	19.2	+	.	Target="Motif:(TTTAA)n" 1 44
+PcWa139m_chromosome_5	RepeatMasker	similarity	4209	4277	 5.8	-	.	Target="Motif:Leptodactylodon" 2 70
+PcWa139m_chromosome_5	RepeatMasker	similarity	4416	4492	18.6	+	.	Target="Motif:(AAT)n" 1 78
+PcWa139m_chromosome_5	RepeatMasker	similarity	4493	4512	26.4	+	.	Target="Motif:A-rich" 2 96
+PcWa139m_chromosome_5	RepeatMasker	similarity	5036	5102	16.9	+	.	Target="Motif:(TTTAAGTA)n" 1 66
+PcWa139m_chromosome_5	RepeatMasker	similarity	5863	6525	29.2	+	.	Target="Motif:Crapaud" 2824 3505
+PcWa139m_chromosome_5	RepeatMasker	similarity	6538	6889	 8.8	+	.	Target="Motif:Grenouille" 1 364
+PcWa139m_chromosome_5	RepeatMasker	similarity	6878	7461	30.9	+	.	Target="Motif:Crapaud" 3503 4083
+PcWa139m_chromosome_5	RepeatMasker	similarity	7493	9512	29.6	+	.	Target="Motif:Crapaud" 4194 6211
+PcWa139m_chromosome_5	RepeatMasker	similarity	9998	10039	22.6	+	.	Target="Motif:(TTAATCT)n" 1 44
+PcWa139m_chromosome_5	RepeatMasker	similarity	10591	10839	22.2	+	.	Target="Motif:Crapaud" 7132 7372
+PcWa139m_chromosome_5	RepeatMasker	similarity	11939	11992	17.5	+	.	Target="Motif:(TTTAATA)n" 1 56
+PcWa139m_chromosome_5	RepeatMasker	similarity	12880	14744	23.5	-	.	Target="Motif:Discoglosse" 1 1867
+PcWa139m_chromosome_5	RepeatMasker	similarity	14766	14835	12.9	-	.	Target="Motif:Leptodactylodon" 1 70
+PcWa139m_chromosome_5	RepeatMasker	similarity	14793	18269	31.8	-	.	Target="Motif:Nephelobates" 1733 5189
+PcWa139m_chromosome_5	RepeatMasker	similarity	18542	19298	28.4	-	.	Target="Motif:Crapaud" 199 400
+PcWa139m_chromosome_5	RepeatMasker	similarity	19843	21298	30.0	-	.	Target="Motif:Crapaud" 4761 6211
+PcWa139m_chromosome_5	RepeatMasker	similarity	21300	21915	10.5	-	.	Target="Motif:Hyla" 5834 6466
+PcWa139m_chromosome_5	RepeatMasker	similarity	25197	25388	24.9	+	.	Target="Motif:Crapaud" 7190 7372
+PcWa139m_chromosome_5	artemis	gene	25620	29591	.	+	.	ID=PcWa139m.gene.007068;Name=Uhura2;
+PcWa139m_chromosome_5	artemis	three_prime_UTR	29252	29591	.	+	.	ID=PcWa139m.mRNA.007068:3UTR;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	mRNA	25620	29591	.	+	.	ID=PcWa139m.mRNA.007068;Name=Uhura2;Parent=PcWa139m.gene.007068
+PcWa139m_chromosome_5	artemis	CDS	26078	29251	.	+	0	ID=PcWa139m.mRNA.007068:CDS;Name=Uhura2;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	exon	26078	29251	.	+	.	ID=PcWa139m.mRNA.007068:exon;Name=Uhura2;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	five_prime_UTR	25620	25764	.	+	.	ID=PcWa139m.mRNA.007068:7;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	five_prime_UTR	25868	25951	.	+	.	ID=PcWa139m.mRNA.007068:10;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	five_prime_UTR	26022	26077	.	+	.	ID=PcWa139m.mRNA.007068:6;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	intron	25765	25867	.	+	.	ID=PcWa139m.mRNA.007068:intron1;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	artemis	intron	25952	26021	.	+	.	ID=PcWa139m.mRNA.007068:intron2;Parent=PcWa139m.mRNA.007068
+PcWa139m_chromosome_5	RepeatMasker	similarity	30377	30411	14.3	+	.	Target="Motif:(CGTTAT)n" 1 33
+PcWa139m_chromosome_5	RepeatMasker	similarity	30412	30841	22.2	-	.	Target="Motif:Discoglosse" 1437 1867
+PcWa139m_chromosome_5	RepeatMasker	similarity	30839	31041	21.4	-	.	Target="Motif:Crapaud" 208 402
+PcWa139m_chromosome_5	RepeatMasker	similarity	31244	31445	19.8	-	.	Target="Motif:Crapaud" 7171 7368
+PcWa139m_chromosome_5	GeneMark.hmm3	gene	32657	33682	.	+	.	ID=gene00120;Name=SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PcWa139m_chromosome_5	GeneMark.hmm3	mRNA	32657	33682	.	+	.	ID=mRNA00120;Parent=gene00120;Name=SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PcWa139m_chromosome_5	GeneMark.hmm3	exon	32657	33198	.	+	.	ID=exon00001.mRNA00120.120;Parent=mRNA00120
+PcWa139m_chromosome_5	GeneMark.hmm3	CDS	32657	33198	.	+	0	ID=cds00001.mRNA00120.120;Parent=mRNA00120
+PcWa139m_chromosome_5	GeneMark.hmm3	Intron	33199	33255	.	+	0	ID=intron00001.mRNA00120.120;Parent=mRNA00120
+PcWa139m_chromosome_5	GeneMark.hmm3	exon	33256	33682	.	+	.	ID=exon00002.mRNA00120.120;Parent=mRNA00120
+PcWa139m_chromosome_5	GeneMark.hmm3	CDS	33256	33682	.	+	1	ID=cds00001.mRNA00120.120;Parent=mRNA00120
+PcWa139m_chromosome_5	SNAP	gene	33869	34717	8.204	+	.	ID=PcWa139m.gene.007070;Name=Pa_6_2440
+PcWa139m_chromosome_5	SNAP	mRNA	33869	34717	.	+	.	ID=PcWa139m.mRNA.007070;Parent=PcWa139m.gene.007070;Name=Pa_6_2440
+PcWa139m_chromosome_5	SNAP	exon	33869	34717	8.204	+	.	ID=PcWa139m.exon.017723;Parent=PcWa139m.mRNA.007070;Name=Pa_6_2440
+PcWa139m_chromosome_5	SNAP	CDS	33869	34717	.	+	0	ID=PcWa139m.CDS.017723;Parent=PcWa139m.mRNA.007070;Name=Pa_6_2440
+PcWa139m_chromosome_5	RepeatMasker	similarity	35733	35761	 3.5	+	.	Target="Motif:(TGCCAG)n" 1 31
+PcWa139m_chromosome_5	RepeatMasker	similarity	35899	36050	 1.3	-	.	Target="Motif:Nephelobates" 5443 5594
+PcWa139m_chromosome_5	RepeatMasker	similarity	35949	36258	26.2	+	.	Target="Motif:Atelopus_LTR" 53 335
+PcWa139m_chromosome_5	RepeatMasker	similarity	36098	36422	 8.1	-	.	Target="Motif:Nephelobates" 1 323
+PcWa139m_chromosome_5	artemis	gene	36423	36859	.	-	.	ID=PcWa139m.CDV55_100926.gene;Name=CDV55_100926_Aspergillus_turcosus_fragment;fragment=true
+PcWa139m_chromosome_5	artemis	mRNA	36423	36859	.	-	.	ID=PcWa139m.CDV55_100926.mRNA;Parent=PcWa139m.CDV55_100926.gene;Name=CDV55_100926_Aspergillus_turcosus_fragment
+PcWa139m_chromosome_5	artemis	exon	36423	36859	.	-	.	ID=PcWa139m.CDV55_100926.exon;Parent=PcWa139m.CDV55_100926.mRNA;Name=CDV55_100926_Aspergillus_turcosus_fragment
+PcWa139m_chromosome_5	artemis	CDS	36423	36859	.	-	0	ID=PcWa139m.CDV55_100926.CDS;Parent=PcWa139m.CDV55_100926.mRNA;Name=CDV55_100926_Aspergillus_turcosus_fragment
+PcWa139m_chromosome_5	RepeatMasker	similarity	37102	37314	22.4	+	.	Target="Motif:Crapaud" 7165 7372
+PcWa139m_chromosome_5	RepeatMasker	similarity	38292	38529	11.3	+	.	Target="Motif:Schoutedenella" 1 231

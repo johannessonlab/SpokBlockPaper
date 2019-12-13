@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 39 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/SpokBlockPaper/GettingTElibrary/PaTEs.smk:
+Missing input files for rule fastareduce:
+data/genomes/CBS112042p.fa

@@ -1,0 +1,125 @@
+##gff-version 3
+# Sliced from PaWa53m_nice_SpokBlock_figure.gff using GFFSlicer.py v. 4.01 on 2019-12-07 19:08:28.982647
+# Manual curation of the Spok block in PaWa53m for figure
+# Assembly: PaWa53m.nice.fa
+# Curation by: Aaron A. Vogan
+PaWa53m_chromosome_3	artemis	gene	2	4164	6.756	+	.	ID=PaWa53m.gene.004562;Name=Kirc;Note=Pa_5_10116_homolog
+PaWa53m_chromosome_3	artemis	mRNA	2	4164	.	+	.	ID=PaWa53m.mRNA.004562;Name=Kirc;Parent=PaWa53m.gene.004562
+PaWa53m_chromosome_3	artemis	CDS	662	816	.	+	0	ID=PaWa53m.004562-mRNA1-CDS1;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562
+PaWa53m_chromosome_3	artemis	CDS	867	1074	.	+	0	ID=PaWa53m.004562-mRNA1-CDS2;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562
+PaWa53m_chromosome_3	artemis	CDS	1133	1399	.	+	0	ID=PaWa53m.004562-mRNA1-CDS3;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562
+PaWa53m_chromosome_3	artemis	CDS	1463	1563	.	+	0	ID=PaWa53m.004562-mRNA1-CDS4;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562
+PaWa53m_chromosome_3	artemis	CDS	1624	1967	.	+	0	ID=PaWa53m.004562-mRNA1-CDS5;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562
+PaWa53m_chromosome_3	artemis	CDS	2021	2838	.	+	0	ID=PaWa53m.004562-mRNA1-CDS6;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562
+PaWa53m_chromosome_3	artemis	exon	662	816	6.756	+	.	ID=PaWa53m.004562-mRNA1-exon1;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	exon	867	1074	6.756	+	.	ID=PaWa53m.004562-mRNA1-exon2;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	exon	1133	1399	6.756	+	.	ID=PaWa53m.004562-mRNA1-exon3;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	exon	1463	1563	6.756	+	.	ID=PaWa53m.004562-mRNA1-exon4;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	exon	1624	1967	6.756	+	.	ID=PaWa53m.004562-mRNA1-exon5;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	exon	2021	2838	6.756	+	.	ID=PaWa53m.004562-mRNA1-exon6;Name=PaWa53m_chromosome_3-snap.148;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	three_prime_UTR	2839	4164	.	+	.	ID=PaWa53m.004562-mRNA1-3UTR;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	five_prime_UTR	2	661	.	+	.	ID=PaWa53m.004562-mRNA1-5UTR;Parent=PaWa53m.mRNA.004562;score=6.756
+PaWa53m_chromosome_3	artemis	gene	9255	13235	.	+	.	ID=gene00144;Name=Uhura1
+PaWa53m_chromosome_3	artemis	three_prime_UTR	12929	13235	.	+	.	ID=gene.00144.004144:3UTR;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	CDS	9713	12928	.	+	0	ID=mRNA00144:CDS:3;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	exon	9713	12928	.	+	.	ID=mRNA00144:exon:3;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	mRNA	9255	13235	.	+	.	ID=mRNA00144;Name=Uhura1;Parent=gene00144
+PaWa53m_chromosome_3	artemis	five_prime_UTR	9657	9712	.	+	.	ID=gene00144.00144:5UTR:1;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	five_prime_UTR	9503	9586	.	+	.	ID=gene00144.00144:5UTR:2;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	five_prime_UTR	9255	9399	.	+	.	ID=gene00144.00144:5UTR:3;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	intron	9587	9656	.	+	.	ID=gene00144.00144:intron2;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	intron	9400	9502	.	+	.	ID=gene00144.00144:intron1;Parent=mRNA00144
+PaWa53m_chromosome_3	artemis	gene	40328	43425	127.603	-	.	ID=PaWa53m.gene.004555;Name=Spok4;score=127.603;Note=Pa_5_10_homolog
+PaWa53m_chromosome_3	artemis	five_prime_UTR	42943	43425	.	-	.	ID=PaWa53m.gene.004555.004555:3;Parent=PaWa53m.mRNA.004555
+PaWa53m_chromosome_3	artemis	five_prime_UTR	42772	42873	.	-	.	ID=PaWa53m.gene.004555.004555:2;Parent=PaWa53m.mRNA.004555
+PaWa53m_chromosome_3	artemis	mRNA	40328	43425	.	-	.	ID=PaWa53m.mRNA.004555;Name=Spok4;Parent=PaWa53m.gene.004555
+PaWa53m_chromosome_3	artemis	intron	42874	42942	.	-	.	ID=PaWa53m.gene.004555.004555:intron1;Parent=PaWa53m.mRNA.004555
+PaWa53m_chromosome_3	artemis	CDS	40495	42771	.	-	0	ID=PaWa53m.mRNA.004555:CDS:3;Name=PaWa53m_chromosome_3-snap.141;Parent=PaWa53m.mRNA.004555
+PaWa53m_chromosome_3	artemis	exon	40495	42771	2.511	-	.	ID=PaWa53m.mRNA.004555:exon:3;Name=PaWa53m_chromosome_3-snap.141;Parent=PaWa53m.mRNA.004555;score=2.511
+PaWa53m_chromosome_3	artemis	three_prime_UTR	40328	40494	.	-	.	ID=PaWa53m.gene.004555.004555:3UTR;Parent=PaWa53m.mRNA.004555
+PaWa53m_chromosome_3	artemis	gene	49975	53989	32.254	+	.	ID=PaWa53m.gene.004552;Name=Uhura2;score=32.254
+PaWa53m_chromosome_3	artemis	three_prime_UTR	53649	53989	.	+	.	ID=PaWa53m.gene.004552.004552:3UTR;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	mRNA	49975	53989	.	+	.	ID=PaWa53m.mRNA.004552;Name=Uhura2;Parent=PaWa53m.gene.004552
+PaWa53m_chromosome_3	artemis	CDS	50433	53648	.	+	0	ID=PaWa53m.CDS.011476;Name=PaWa53m_chromosome_3-artemis.138;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	exon	50433	53648	32.254	+	.	ID=PaWa53m.exon.011475;Name=PaWa53m_chromosome_3-snap.138;Parent=PaWa53m.mRNA.004552;score=32.254
+PaWa53m_chromosome_3	artemis	five_prime_UTR	49975	50119	.	+	.	ID=PaWa53m.gene.004552.004552:7;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	five_prime_UTR	50223	50306	.	+	.	ID=PaWa53m.gene.004552.004552:10;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	five_prime_UTR	50377	50432	.	+	.	ID=PaWa53m.gene.004552.004552:6;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	intron	50307	50376	.	+	.	ID=PaWa53m.gene.004552.004552:intron1;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	intron	50120	50222	.	+	.	ID=PaWa53m.gene.004552.004552:intron2;Parent=PaWa53m.mRNA.004552
+PaWa53m_chromosome_3	artemis	gene	82571	85628	.	-	.	ID=PaWa53m.04573;Name=Spok3;Note=Pa_5_10_homolog
+PaWa53m_chromosome_3	artemis	mRNA	82571	85628	.	-	.	ID=PaWa53m.04573-mRNA1;Parent=PaWa53m.04573;Name=Spok3;_AED=0.05;_eAED=0.10;_QI=0|0|0.5|1|0|0|2|125|823
+PaWa53m_chromosome_3	artemis	CDS	82738	84975	.	-	0	ID=PaWa53m.04573-mRNA1-CDS1;Parent=PaWa53m.04573-mRNA1
+PaWa53m_chromosome_3	artemis	exon	82571	84975	.	-	.	ID=PaWa53m.04573-mRNA1-exon1;Parent=PaWa53m.04573-mRNA1
+PaWa53m_chromosome_3	artemis	three_prime_UTR	82571	82737	.	-	.	ID=PaWa53m.04573-mRNA1-three_prime_UTR1;Parent=PaWa53m.04573-mRNA1
+PaWa53m_chromosome_3	artemis	five_prime_UTR	85147	85628	.	-	.	ID=PaWa53m.04573-mRNA1-three_prime_UTR1;Parent=PaWa53m.04573-mRNA1
+PaWa53m_chromosome_3	artemis	five_prime_UTR	84976	85077	.	-	.	ID=PaWa53m.04573-mRNA1-three_prime_UTR2;Parent=PaWa53m.04573-mRNA1
+PaWa53m_chromosome_3	artemis	gene	92821	96011	.	+	.	ID=PaWa53m.gene.004546;Name=Uhura3;		
+PaWa53m_chromosome_3	artemis	three_prime_UTR	95700	96011	.	+	.	ID=PaWa53m.gene.004546.004546:3UTR;Parent=PaWa53m.mRNA.004546			
+PaWa53m_chromosome_3	artemis	mRNA	92821	96011	.	+	.	ID=PaWa53m.mRNA.004546;Name=Uhura3;Parent=PaWa53m.gene.004546			
+PaWa53m_chromosome_3	artemis	CDS	93279	95699	.	+	0	ID=PaWa53m.CDS.011476;Name=PaWa53m_chromosome_3-artemis.138;Parent=PaWa53m.mRNA.004546			
+PaWa53m_chromosome_3	artemis	exon	93279	95699	.	+	.	ID=PaWa53m.exon.011475;Name=PaWa53m_chromosome_3-snap.138;Parent=PaWa53m.mRNA.004546;score=32.254			
+PaWa53m_chromosome_3	artemis	five_prime_UTR	92821	92965	.	+	.	ID=PaWa53m.gene.004546.004546:7;Parent=PaWa53m.mRNA.004546			
+PaWa53m_chromosome_3	artemis	five_prime_UTR	93069	93152	.	+	.	ID=PaWa53m.gene.004546.004546:10;Parent=PaWa53m.mRNA.004546			
+PaWa53m_chromosome_3	artemis	five_prime_UTR	93223	93278	.	+	.	ID=PaWa53m.gene.004546.004546:6;Parent=PaWa53m.mRNA.004546			
+PaWa53m_chromosome_3	artemis	intron	93153	93222	.	+	.	ID=PaWa53m.gene.004546.004546:intron1;Parent=PaWa53m.mRNA.004546			
+PaWa53m_chromosome_3	artemis	intron	92966	93068	.	+	.	ID=PaWa53m.gene.004546.004546:intron2;Parent=PaWa53m.mRNA.004546
+PaWa53m_chromosome_3	RepeatMasker	similarity	113169	113406	11.3	+	.	Target "Motif:Schoutedenella" 1 231
+PaWa53m_chromosome_3	RepeatMasker	similarity	111258	111372	25.7	+	.	Target "Motif:Sapo_LTR" 187 300
+PaWa53m_chromosome_3	RepeatMasker	similarity	110862	111037	15.9	-	.	Target "Motif:Allophryne" 11 287
+PaWa53m_chromosome_3	RepeatMasker	similarity	110283	110395	15.0	-	.	Target "Motif:Bombinator" 1 113
+PaWa53m_chromosome_3	RepeatMasker	similarity	109526	109606	21.1	+	.	Target "Motif:Boophis_LTR" 102 180
+PaWa53m_chromosome_3	RepeatMasker	similarity	108132	108559	36.7	-	.	Target "Motif:Crapaud_i" 717 1147
+PaWa53m_chromosome_3	RepeatMasker	similarity	101651	101688	16.4	-	.	Target "Motif:(TTG)n" 1 36
+PaWa53m_chromosome_3	RepeatMasker	similarity	100631	100978	15.8	-	.	Target "Motif:Nephelobates_LTR" 1 349
+PaWa53m_chromosome_3	RepeatMasker	similarity	100117	100280	22.5	-	.	Target "Motif:Padda_LTR" 211 368
+PaWa53m_chromosome_3	RepeatMasker	similarity	98976	99027	11.8	-	.	Target "Motif:A-rich" 1 50
+PaWa53m_chromosome_3	RepeatMasker	similarity	97372	97809	12.8	-	.	Target "Motif:Grenouille_i" 10657 11143
+PaWa53m_chromosome_3	RepeatMasker	similarity	97207	97370	 9.8	-	.	Target "Motif:Grenouille_LTR" 3 187
+PaWa53m_chromosome_3	RepeatMasker	similarity	91190	91385	11.2	-	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa53m_chromosome_3	RepeatMasker	similarity	85703	85984	11.7	-	.	Target "Motif:Grenouille_LTR" 1 360
+PaWa53m_chromosome_3	RepeatMasker	similarity	80583	80645	29.7	-	.	Target "Motif:(TGAGGA)n" 1 63
+PaWa53m_chromosome_3	RepeatMasker	similarity	71453	71522	 0.0	-	.	Target "Motif:(CCAAATGCA)n" 1 67
+PaWa53m_chromosome_3	RepeatMasker	similarity	68127	69194	16.7	-	.	Target "Motif:Pelobate" 1 1061
+PaWa53m_chromosome_3	RepeatMasker	similarity	67692	68123	 9.0	+	.	Target "Motif:Dendrobates" 1901 2332
+PaWa53m_chromosome_3	RepeatMasker	similarity	67376	67694	11.6	+	.	Target "Motif:Dendrobates" 328 646
+PaWa53m_chromosome_3	RepeatMasker	similarity	64610	64695	18.8	-	.	Target "Motif:Callulops" 219 302
+PaWa53m_chromosome_3	RepeatMasker	similarity	63846	63995	10.7	-	.	Target "Motif:Nephelobates_LTR" 1 150
+PaWa53m_chromosome_3	RepeatMasker	similarity	61916	62013	 8.7	-	.	Target "Motif:Padda_LTR" 232 324
+PaWa53m_chromosome_3	RepeatMasker	similarity	61635	61802	12.6	-	.	Target "Motif:Bombinator" 1 175
+PaWa53m_chromosome_3	RepeatMasker	similarity	61135	61505	 9.9	+	.	Target "Motif:Padda_LTR" 1 368
+PaWa53m_chromosome_3	RepeatMasker	similarity	59888	60281	11.6	-	.	Target "Motif:Tamasoli_LTR" 1 383
+PaWa53m_chromosome_3	RepeatMasker	similarity	59850	59883	 2.9	-	.	Target "Motif:Padda_LTR" 335 368
+PaWa53m_chromosome_3	RepeatMasker	similarity	56833	56934	 6.3	+	.	Target "Motif:Padda_LTR" 271 366
+PaWa53m_chromosome_3	RepeatMasker	similarity	56552	56818	12.7	+	.	Target "Motif:Pelobate" 1642 1948
+PaWa53m_chromosome_3	RepeatMasker	similarity	48344	48539	11.2	-	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa53m_chromosome_3	RepeatMasker	similarity	43429	43496	16.2	-	.	Target "Motif:Grenouille_LTR" 1 68
+PaWa53m_chromosome_3	RepeatMasker	similarity	40280	40385	19.3	-	.	Target "Motif:Microhyla" 6 105
+PaWa53m_chromosome_3	RepeatMasker	similarity	40154	40221	26.6	-	.	Target "Motif:(CCT)n" 1 70
+PaWa53m_chromosome_3	RepeatMasker	similarity	39828	40124	16.8	-	.	Target "Motif:Dendrobates" 2 319
+PaWa53m_chromosome_3	RepeatMasker	similarity	37288	37344	20.1	-	.	Target "Motif:GA-rich" 1 55
+PaWa53m_chromosome_3	RepeatMasker	similarity	35449	35756	19.6	+	.	Target "Motif:Adenomus" 2 364
+PaWa53m_chromosome_3	RepeatMasker	similarity	34450	34756	12.7	-	.	Target "Motif:Pelobate" 1642 1948
+PaWa53m_chromosome_3	RepeatMasker	similarity	33083	33266	10.4	+	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa53m_chromosome_3	RepeatMasker	similarity	32065	32158	10.6	-	.	Target "Motif:Xenopus_LTR" 100 193
+PaWa53m_chromosome_3	RepeatMasker	similarity	31479	31650	18.7	+	.	Target "Motif:Bombinator" 1 180
+PaWa53m_chromosome_3	RepeatMasker	similarity	28406	28441	23.3	+	.	Target "Motif:Leptodactylodon" 3 90
+PaWa53m_chromosome_3	RepeatMasker	similarity	28352	28405	13.0	+	.	Target "Motif:Nephelobates_LTR" 1 54
+PaWa53m_chromosome_3	RepeatMasker	similarity	25110	25191	12.2	+	.	Target "Motif:Xenopus_LTR" 1 88
+PaWa53m_chromosome_3	RepeatMasker	similarity	24776	24798	 4.5	-	.	Target "Motif:(ATT)n" 1 24
+PaWa53m_chromosome_3	RepeatMasker	similarity	24615	24671	25.4	-	.	Target "Motif:(TTCATC)n" 1 60
+PaWa53m_chromosome_3	RepeatMasker	similarity	22934	22994	 8.2	-	.	Target "Motif:Nephelobates_LTR" 1 72
+PaWa53m_chromosome_3	RepeatMasker	similarity	22670	22934	17.3	-	.	Target "Motif:Callulops" 40 302
+PaWa53m_chromosome_3	RepeatMasker	similarity	22064	22105	19.1	-	.	Target "Motif:Rana_i" 4252 4293
+PaWa53m_chromosome_3	RepeatMasker	similarity	21222	21652	 6.3	+	.	Target "Motif:Sapo_LTR" 1 426
+PaWa53m_chromosome_3	RepeatMasker	similarity	19413	19560	 5.4	+	.	Target "Motif:Cochranella_LTR" 1 155
+PaWa53m_chromosome_3	RepeatMasker	similarity	19252	19292	14.6	-	.	Target "Motif:Bombinator" 192 232
+PaWa53m_chromosome_3	RepeatMasker	similarity	17480	18597	18.9	+	.	Target "Motif:Dendrobates" 1606 2755
+PaWa53m_chromosome_3	RepeatMasker	similarity	17422	17481	15.0	-	.	Target "Motif:Grenouille_i" 4175 4234
+PaWa53m_chromosome_3	RepeatMasker	similarity	16149	17422	 8.6	-	.	Target "Motif:Grenouille_i" 7824 9100
+PaWa53m_chromosome_3	RepeatMasker	similarity	13184	13214	18.2	-	.	Target "Motif:(GGATGG)n" 1 31
+PaWa53m_chromosome_3	RepeatMasker	similarity	8916	8987	21.8	+	.	Target "Motif:Sapo_LTR" 251 320
+PaWa53m_chromosome_3	RepeatMasker	similarity	5506	5618	14.2	+	.	Target "Motif:Bombinator" 1 113
+PaWa53m_chromosome_3	RepeatMasker	similarity	4864	5039	15.9	+	.	Target "Motif:Allophryne" 11 287
+PaWa53m_chromosome_3	RepeatMasker	similarity	379	561	 8.7	-	.	Target "Motif:Bufo" 2 187
+PaWa53m_chromosome_3	RepeatMasker	similarity	5	375	 9.4	-	.	Target "Motif:Bufo" 73 463

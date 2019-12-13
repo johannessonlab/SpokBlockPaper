@@ -1,0 +1,11 @@
+#### TEManualCuration.smk configuration file
+
+# Assemblies must be in data/genomes/{sampleID}.fa
+samplesID: ["Podan2", "CBS237.71m", "PaTgp", "PaWa137m", "PaYp", "PcWa139m", "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p"]
+
+# Path to RepearModeler libraries
+rmlibpath: "../GettingTElibrary/results"
+
+## The Suh Lab script
+repeatModelerPipeline: "scripts/repeatModelerPipeline4.pl"
+

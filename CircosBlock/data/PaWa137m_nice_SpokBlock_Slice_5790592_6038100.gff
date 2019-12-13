@@ -1,0 +1,599 @@
+##gff-version 3
+# Sliced from PaWa137m_nice_SpokBlock.gff using GFFSlicer.py v. 4.01 on 2019-12-09 19:23:00.860772
+# Manual curation of the Spok block of PaWa137m in the nice assembly
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	4	371	 9.5	-	.	Target "Motif:Bufo" 73 463
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	375	557	 8.7	-	.	Target "Motif:Bufo" 2 187
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	4	4091	.	+	.	ID=gene01805;Name=Kirc;Note=Pa_5_10116_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	4	4091	.	+	.	ID=mRNA01805;Parent=gene01805;Name=Kirc
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	775	812	.	+	.	ID=exon00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	775	812	.	+	0	ID=cds00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	813	862	.	+	0	ID=intron00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	863	1070	.	+	.	ID=exon00002.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	863	1070	.	+	1	ID=cds00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	1071	1128	.	+	1	ID=intron00002.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	1129	1395	.	+	.	ID=exon00003.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	1129	1395	.	+	0	ID=cds00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	1396	1458	.	+	0	ID=intron00003.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	1459	1559	.	+	.	ID=exon00004.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	1459	1559	.	+	0	ID=cds00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	1560	1619	.	+	0	ID=intron00004.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	1620	1963	.	+	.	ID=exon00005.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	1620	1963	.	+	1	ID=cds00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	1964	2016	.	+	1	ID=intron00005.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	2017	4091	.	+	.	ID=exon00006.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	2017	4091	.	+	2	ID=cds00001.mRNA01805.1805;Parent=mRNA01805
+PaWa137m_chromosome_1.2	GeneMark.hmm3	five_prime_UTR	4	774	.	+	.	ID=PaWa137m.01805-mRNA1-3UTR;Parent=mRNA01805
+PaWa137m_chromosome_1.2	artemis	gene	9218	12899	.	+	.	ID=gene01806;Name=Uhura1
+PaWa137m_chromosome_1.2	artemis	mRNA	9218	12899	.	+	.	ID=mRNA01806;Parent=gene01806;Name=Uhura1
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	9218	9395	.	+	.	ID=gene01806-five_prime_UTR1;Parent=mRNA01806
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	9499	9582	.	+	.	ID=gene01806-five_prime_UTR2;Parent=mRNA01806
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	9653	9708	.	+	.	ID=gene01806-five_prime_UTR3;Parent=mRNA01806
+PaWa137m_chromosome_1.2	artemis	exon	9709	12899	.	+	.	ID=exon00003.mRNA01806.1806;Parent=mRNA01806
+PaWa137m_chromosome_1.2	artemis	CDS	9709	12899	.	+	2	ID=cds00001.mRNA01806.1806;Parent=mRNA01806
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	4860	5035	15.9	+	.	Target "Motif:Allophryne" 11 287
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	5502	5614	14.2	+	.	Target "Motif:Bombinator" 1 113
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	8912	8983	21.8	+	.	Target "Motif:Sapo_LTR" 251 320
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	13155	13185	18.2	+	.	Target "Motif:(CCCATC)n" 1 31
+PaWa137m_chromosome_1.2	maker	gene	13207	14679	.	-	.	ID=PaWa137m.02400;Name=PpBr36_10652_Pyricularia_pennisetigena
+PaWa137m_chromosome_1.2	maker	mRNA	13207	14679	100	-	.	ID=PaWa137m.02400-mRNA1;Parent=PaWa137m.02400;Name=PpBr36_10652_Pyricularia_pennisetigena
+PaWa137m_chromosome_1.2	maker	CDS	13207	14679	.	-	0	ID=PaWa137m.02400-mRNA1-CDS1;Parent=PaWa137m.02400-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	13207	14679	.	-	.	ID=PaWa137m.02400-mRNA1-exon1;Parent=PaWa137m.02400-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	16120	17393	 8.6	-	.	Target "Motif:Grenouille_i" 7824 9100
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	17393	17452	15.0	-	.	Target "Motif:Grenouille_i" 4175 4234
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	17451	18568	18.9	+	.	Target "Motif:Dendrobates" 1606 2755
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	19223	19263	14.6	-	.	Target "Motif:Bombinator" 192 232
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	19384	19531	 5.4	+	.	Target "Motif:Cochranella_LTR" 1 155
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	21193	21623	 6.3	+	.	Target "Motif:Sapo_LTR" 1 426
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	22035	22076	19.1	-	.	Target "Motif:Rana_i" 4252 4293
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	22641	22905	17.3	-	.	Target "Motif:Callulops" 40 302
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	22905	22965	 8.2	-	.	Target "Motif:Nephelobates_LTR" 1 72
+PaWa137m_chromosome_1.2	maker	gene	23660	24645	.	+	.	ID=PaWa137m.02401;Name=Pa_2_5490_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	23660	24645	.	+	.	ID=PaWa137m.02401-mRNA1;Parent=PaWa137m.02401;Name=Nap1_homolog
+PaWa137m_chromosome_1.2	maker	CDS	23660	24251	.	+	0	ID=PaWa137m.02401-mRNA1-CDS1;Parent=PaWa137m.02401-mRNA1
+PaWa137m_chromosome_1.2	maker	CDS	24305	24645	.	+	2	ID=PaWa137m.02401-mRNA1-CDS2;Parent=PaWa137m.02401-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	23660	24251	.	+	.	ID=PaWa137m.02401-mRNA1-exon1;Parent=PaWa137m.02401-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	24305	24645	.	+	.	ID=PaWa137m.02401-mRNA1-exon2;Parent=PaWa137m.02401-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	24747	24769	 4.5	+	.	Target "Motif:(AAT)n" 1 24
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	25081	25162	12.2	+	.	Target "Motif:Xenopus_LTR" 1 88
+PaWa137m_chromosome_1.2	maker	gene	26703	28199	.	+	.	ID=PaWa137m.02402;Name=S7711_11618_Stachybotrys_chartarum_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	26703	28199	100	+	.	ID=PaWa137m.02402-mRNA1;Parent=PaWa137m.02402;Name=S7711_11618_Stachybotrys_chartarum_homolog
+PaWa137m_chromosome_1.2	maker	CDS	26703	28199	.	+	0	ID=PaWa137m.02402-mRNA1-CDS1;Parent=PaWa137m.02402-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	26703	28199	.	+	.	ID=PaWa137m.02402-mRNA1-exon1;Parent=PaWa137m.02402-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	28323	28376	13.0	+	.	Target "Motif:Nephelobates_LTR" 1 54
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	28377	28412	23.3	+	.	Target "Motif:Leptodactylodon" 3 90
+PaWa137m_chromosome_1.2	genemark	gene	31063	31303	.	-	.	ID=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58;Name=Pa_7_10380_fragment;fragment=true
+PaWa137m_chromosome_1.2	genemark	mRNA	31063	31303	.	-	.	ID=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58.mRNA1;Parent=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58;Name=Pa_7_10380_fragment;fragment=true
+PaWa137m_chromosome_1.2	genemark	CDS	31063	31303	.	-	0	ID=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58.CDS1;Parent=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58.mRNA1
+PaWa137m_chromosome_1.2	genemark	exon	31063	31303	.	-	.	ID=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58.exon1;Parent=PaWa137m_chromosome_1.2:hsp:120951:4.5.0.58.mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	31450	31621	18.7	+	.	Target "Motif:Bombinator" 1 180
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	32036	32129	10.6	-	.	Target "Motif:Xenopus_LTR" 100 193
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	33054	33237	10.4	+	.	Target "Motif:Centrolene_LTR" 1 183
+PaWa137m_chromosome_1.2	artemis	gene	33430	34408	.	+	.	ID=PaWa137m_CH35J_006576;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;fragment=true
+PaWa137m_chromosome_1.2	artemis	CDS	33430	33745	.	+	0	ID=PaWa137m.mRNA.CH35J_006576:1;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m.mRNA.CH35J_006576
+PaWa137m_chromosome_1.2	artemis	CDS	33805	34317	.	+	0	ID=PaWa137m.mRNA.CH35J_006576:4;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m.mRNA.CH35J_006576
+PaWa137m_chromosome_1.2	artemis	CDS	34368	34408	.	+	0	ID=PaWa137m.mRNA.CH35J_006576:3;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m.mRNA.CH35J_006576
+PaWa137m_chromosome_1.2	artemis	mRNA	33430	34408	.	+	.	ID=PaWa137m.mRNA.CH35J_006576;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m_CH35J_006576
+PaWa137m_chromosome_1.2	artemis	exon	33430	33745	.	+	.	ID=PaWa137m.mRNA.CH35J_006576:exon:4;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m.mRNA.CH35J_006576
+PaWa137m_chromosome_1.2	artemis	exon	33805	34317	.	+	.	ID=PaWa137m.mRNA.CH35J_006576:exon:9;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m.mRNA.CH35J_006576
+PaWa137m_chromosome_1.2	artemis	exon	34368	34408	.	+	.	ID=PaWa137m.mRNA.CH35J_006576:exon:8;Name=CH35J_006576_Colletotrichum_higginsianum_fragment;Parent=PaWa137m.mRNA.CH35J_006576
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	34421	34727	12.7	-	.	Target "Motif:Pelobate" 1642 1948
+PaWa137m_chromosome_1.2	maker	gene	34906	35193	.	+	.	ID=PaWa137m.02404;Name=PODCO_502086_Fragment
+PaWa137m_chromosome_1.2	maker	mRNA	34906	35193	100	+	.	ID=PaWa137m.02404-mRNA1;Parent=PaWa137m.02404;Name=PODCO_502086_Fragment
+PaWa137m_chromosome_1.2	maker	CDS	34906	35193	.	+	0	ID=PaWa137m.02404-mRNA1-CDS1;Parent=PaWa137m.02404-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	34906	35193	.	+	.	ID=PaWa137m.02404-mRNA1-exon1;Parent=PaWa137m.02404-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	35420	35727	20.2	+	.	Target "Motif:Adenomus" 2 364
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	37259	37315	20.1	+	.	Target "Motif:(TC)n" 1 55
+PaWa137m_chromosome_1.2	maker	gene	37457	39085	.	+	.	ID=PaWa137m.02405;Name=Pa_4_1058_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	37457	39085	100	+	.	ID=PaWa137m.02405-mRNA1;Parent=PaWa137m.02405;Name=Pa_4_1058_homolog
+PaWa137m_chromosome_1.2	maker	CDS	37457	39085	.	+	0	ID=PaWa137m.02405-mRNA1-CDS1;Parent=PaWa137m.02405-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	37457	39085	.	+	.	ID=PaWa137m.02405-mRNA1-exon1;Parent=PaWa137m.02405-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	39799	40095	17.2	-	.	Target "Motif:Dendrobates" 2 319
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	40129	40184	24.2	+	.	Target "Motif:GA-rich" 1 55
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	40251	40356	19.3	-	.	Target "Motif:Microhyla" 6 105
+PaWa137m_chromosome_1.2	artemis	gene	40299	43395	.	-	.	ID=gene00315;Name=Spok4;Note=Pa_5_10_homolog
+PaWa137m_chromosome_1.2	artemis	three_prime_UTR	40299	40465	.	-	.	ID=gene00315.00315:3UTR;Parent=mRNA00315
+PaWa137m_chromosome_1.2	artemis	mRNA	40299	43395	.	-	.	ID=mRNA00315;Name=Spok4;Parent=gene00315
+PaWa137m_chromosome_1.2	artemis	CDS	40466	42742	.	-	0	ID=cds00001.mRNA00315.315;Parent=mRNA00315
+PaWa137m_chromosome_1.2	artemis	exon	40466	42742	.	-	.	ID=exon00001.mRNA00315.315;Parent=mRNA00315
+PaWa137m_chromosome_1.2	artemis	Intron	42845	42913	.	-	0	ID=intron00001.mRNA00315.315;Parent=mRNA00315
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	42743	42844	.	-	.	ID=gene00315.00315:5UTR1;Parent=mRNA00315
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	42914	43395	.	-	.	ID=gene00315.00315:5UTR2;Parent=mRNA00315
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	43399	43466	16.2	-	.	Target "Motif:Grenouille_LTR" 1 68
+PaWa137m_chromosome_1.2	artemis	gene	43487	45076	.	+	.	ID=PaWa137m.Unknown1;Name=Unknown1			
+PaWa137m_chromosome_1.2	artemis	mRNA	43487	45076	.	+	.	ID=PaWa137m.mRNA.Unknown1;Name=Unknown1	
+PaWa137m_chromosome_1.2	artemis	exon	43487	44036	.	+	.	ID=exon00001.Unknown1;Parent=PaWa137m.mRNA.Unknown1
+PaWa137m_chromosome_1.2	artemis	exon	44100	44571	.	+	.	ID=exon00002.Unknown1;Parent=PaWa137m.mRNA.Unknown1
+PaWa137m_chromosome_1.2	artemis	exon	44635	45076	.	+	.	ID=exon00003.Unknown1;Parent=PaWa137m.mRNA.Unknown1
+PaWa137m_chromosome_1.2	artemis	Intron	44037	44099	.	+	.	ID=intron00001.Unknown1;Parent=Unknown1			
+PaWa137m_chromosome_1.2	artemis	Intron	44572	44634	.	+	.	ID=intron00002.Unknown1;Parent=Unknown1			
+PaWa137m_chromosome_1.2	blastx	gene	47325	47612	.	+	.	ID=PaWa137m.Pa_5_2010_fragment1;Name=Pa_5_2010_fragment1;fragment=true
+PaWa137m_chromosome_1.2	blastx	mRNA	47325	47612	.	+	.	ID=PaWa137m.mRNA.Pa_5_2010_fragment1;Parent=PaWa137m.Pa_5_2010_fragment1
+PaWa137m_chromosome_1.2	blastx	exon	47325	47612	.	+	.	ID=PaWa137m.exon.Pa_5_2010_fragment1;Parent=PaWa137m.mRNA.Pa_5_2010_fragment1
+PaWa137m_chromosome_1.2	blastx	CDS	47325	47612	.	+	0	ID=PaWa137m.cds.Pa_5_2010_fragment1;Parent=PaWa137m.mRNA.Pa_5_2010_fragment1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	48671	48866	12.8	-	.	Target "Motif:Centrolene_LTR" 1 183			
+PaWa137m_chromosome_1.2	artemis	gene	50333	53950	.	+	.	ID=gene01852;Name=Uhura2			
+PaWa137m_chromosome_1.2	artemis	mRNA	50333	53950	.	+	.	ID=mRNA01852;Parent=gene01852;Name=GeneMark.mRNA01852;			
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	50333	50446	.	+	.	ID=gene01852-five_prime_UTR1;Parent=mRNA01852
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	50550	50633	.	+	.	ID=gene01852-five_prime_UTR2;Parent=mRNA01852
+PaWa137m_chromosome_1.2	artemis	five_prime_UTR	50704	50759	.	+	.	ID=gene01852-five_prime_UTR3;Parent=mRNA01852			
+PaWa137m_chromosome_1.2	artemis	exon	50760	53950	.	+	.	ID=exon00001.mRNA01852.1852;Parent=mRNA01852									
+PaWa137m_chromosome_1.2	artemis	CDS	50760	53950	.	+	0	ID=cds00001.mRNA01852.1852;Parent=mRNA01852					
+PaWa137m_chromosome_1.2	blastx	gene	54304	54825	.	-	.	ID=PaWa137m_Pa_1_14730_fragment1;Name=Pa_1_14730_fragment;fragment=true	
+PaWa137m_chromosome_1.2	blastx	mRNA	54304	54825	.	-	.	ID=PaWa137m.mRNA_Pa_1_14730_fragment1;Parent=PaWa137m_Pa_1_14730_fragment1
+PaWa137m_chromosome_1.2	blastx	exon	54304	54825	.	-	.	ID=PaWa137m.exon1_Pa_1_14730_fragment1;Parent=PaWa137m.mRNA_Pa_1_14730_fragment1
+PaWa137m_chromosome_1.2	blastx	CDS	54304	54825	.	-	.	ID=PaWa137m.cds_Pa_1_14730_fragment1;Parent=PaWa137m.mRNA_Pa_1_14730_fragment1	
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	57450	57482	20.9	+	.	Target "Motif:(GTGTGG)n" 1 33
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	59438	59740	.	+	.	ID=gene01815;Name=Pa_6_9560_Fragment
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	59438	59740	.	+	.	ID=mRNA01815;Parent=gene01815;Name=Pa_6_9560_Fragment
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	59438	59740	.	+	.	ID=exon00001.mRNA01815.1815;Parent=mRNA01815
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	59438	59740	.	+	0	ID=cds00001.mRNA01815.1815;Parent=mRNA01815
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	59823	59892	24.6	-	.	Target "Motif:Bombinator" 60 128
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	60276	60380	26.7	+	.	Target "Motif:(TGGTGG)n" 1 105
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	61022	61047	 0.0	+	.	Target "Motif:(GAAG)n" 1 24
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	61601	61630	 6.7	+	.	Target "Motif:Padda_LTR" 127 156
+PaWa137m_chromosome_1.2	artemis	gene	62702	64575	.	+	.	ID=gene01816;Name=Pa_6_9560_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	62702	62894	.	+	0	ID=cds00001.mRNA01816.1816;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	CDS	62963	63499	.	+	0	ID=mRNA01816:CDS:3;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	CDS	63584	64575	.	+	0	ID=cds00005.mRNA01816.1816;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	mRNA	62702	64575	.	+	.	ID=mRNA01816;Name=Pa_6_9560_homolog;Parent=gene01816
+PaWa137m_chromosome_1.2	artemis	exon	62702	62894	.	+	.	ID=exon00001.mRNA01816.1816;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	exon	62963	63499	.	+	.	ID=mRNA01816:exon:3;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	exon	63584	64575	.	+	.	ID=exon00005.mRNA01816.1816;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	Intron	62895	62962	.	+	0	ID=intron00001.mRNA01816.1816;Parent=mRNA01816
+PaWa137m_chromosome_1.2	artemis	Intron	63500	63583	.	+	2	ID=intron00004.mRNA01816.1816;Parent=mRNA01816
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	65169	65378	31.4	-	.	Target "Motif:Callulops" 90 302
+PaWa137m_chromosome_1.2	artemis	gene	67501	67671	.	-	.	ID=PaWa137m_7_6640_fragment;Name=Pa_7_6640_Fragment;fragment=true
+PaWa137m_chromosome_1.2	artemis	mRNA	67501	67671	.	-	.	ID=PaWa137m.mRNA_7_6640_fragment;Parent=PaWa137m_7_6640_fragment
+PaWa137m_chromosome_1.2	artemis	exon	67501	67671	.	-	.	ID=PaWa137m.exon1_7_6640_fragment;Parent=PaWa137m.mRNA_7_6640_fragment
+PaWa137m_chromosome_1.2	artemis	CDS	67501	67671	.	-	0	ID=PaWa137m.cds_7_6640_fragment;Parent=PaWa137m.mRNA_7_6640_fragment
+PaWa137m_chromosome_1.2	artemis	gene	67771	68271	.	+	.	ID=PaWa137m_CTA1_5148_Colletotrichum_tanaceti_fragment;Name=CTA1_5148_Colletotrichum_tanaceti_fragment
+PaWa137m_chromosome_1.2	artemis	mRNA	67771	68271	.	+	.	ID=PaWa137m.mRNA_CTA1_5148_Colletotrichum_tanaceti_fragment;Parent=PaWa137m_CTA1_5148_Colletotrichum_tanaceti_fragment
+PaWa137m_chromosome_1.2	artemis	exon	67771	68271	.	+	.	ID=PaWa137m.exon1_CTA1_5148_Colletotrichum_tanaceti_fragment;Parent=PaWa137m.mRNA_CTA1_5148_Colletotrichum_tanaceti_fragment
+PaWa137m_chromosome_1.2	artemis	CDS	67771	68271	.	+	0	ID=PaWa137m.cds_CTA1_5148_Colletotrichum_tanaceti_fragment;Parent=PaWa137m.mRNA_CTA1_5148_Colletotrichum_tanaceti_fragment
+PaWa137m_chromosome_1.2	SNAP	gene	71407	72659	17.321	+	.	ID=PaWa137m.gene.002245;Name=Pa_6_9580_homolog
+PaWa137m_chromosome_1.2	SNAP	mRNA	71407	72659	.	+	.	ID=PaWa137m.mRNA.002245;Parent=PaWa137m.gene.002245;Name=Pa__6_9580_homolog
+PaWa137m_chromosome_1.2	SNAP	exon	71407	71556	17.321	+	.	ID=PaWa137m.exon.005615;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	CDS	71407	71556	.	+	0	ID=PaWa137m.CDS.005615;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	exon	71617	71986	34.361	+	.	ID=PaWa137m.exon.005616;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	CDS	71617	71986	.	+	0	ID=PaWa137m.CDS.005616;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	exon	72051	72233	7.792	+	.	ID=PaWa137m.exon.005617;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	CDS	72051	72233	.	+	0	ID=PaWa137m.CDS.005617;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	exon	72307	72659	40.302	+	.	ID=PaWa137m.exon.005618;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	SNAP	CDS	72307	72659	.	+	0	ID=PaWa137m.CDS.005618;Parent=PaWa137m.mRNA.002245;Name=PaWa137m_chromosome_1.2-snap.1855
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	74440	74507	 7.8	+	.	Target "Motif:(CA)n" 1 69
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	74726	77541	.	+	.	ID=gene01818;Name=Pa_4_3510_homolog;
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	74726	77541	.	+	.	ID=mRNA01818;Parent=gene01818;Name=GeneMark.mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	74726	75091	.	+	.	ID=exon00001.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	74726	75091	.	+	0	ID=cds00001.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	75092	75151	.	+	0	ID=intron00001.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	75152	75658	.	+	.	ID=exon00002.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	75152	75658	.	+	0	ID=cds00002.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	75659	75714	.	+	0	ID=intron00002.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	75715	77541	.	+	.	ID=exon00003.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	75715	77541	.	+	0	ID=cds00003.mRNA01818.1818;Parent=mRNA01818
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	77656	77705	20.0	+	.	Target "Motif:Yeti_i" 4149 4198
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	77711	77810	19.0	+	.	Target "Motif:Yeti_i" 4426 4525
+PaWa137m_chromosome_1.2	artemis	gene	78572	79796	-5.378	+	.	ID=PaWa137m.gene.002249;Name=Pa_1_13070_fragment
+PaWa137m_chromosome_1.2	artemis	CDS	78572	79482	.	+	0	ID=PaWa137m.mRNA.002249:CDS:4;Name=PaWa137m_chromosome_1.2-snap.1859;Parent=PaWa137m.mRNA.002249
+PaWa137m_chromosome_1.2	artemis	CDS	79481	79796	.	+	0	ID=PaWa137m.CDS.005628;Name=PaWa137m_chromosome_1.2-snap.1859;Parent=PaWa137m.mRNA.002249
+PaWa137m_chromosome_1.2	artemis	mRNA	78572	79796	.	+	.	ID=PaWa137m.mRNA.002249;Name=PaWa137m_chromosome_1.2-snap.1859;Parent=PaWa137m.gene.002249
+PaWa137m_chromosome_1.2	artemis	exon	78572	79482	36.949	+	.	ID=PaWa137m.mRNA.002249:exon:3;Name=PaWa137m_chromosome_1.2-snap.1859;Parent=PaWa137m.mRNA.002249;score=36.949
+PaWa137m_chromosome_1.2	artemis	exon	79481	79796	36.949	+	.	ID=PaWa137m.exon.005628;Name=PaWa137m_chromosome_1.2-snap.1859;Parent=PaWa137m.mRNA.002249;score=36.949
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	79611	79629	 5.6	+	.	Target "Motif:(GCC)n" 1 19
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	80099	80158	34.2	+	.	Target "Motif:(TGTT)n" 1 59
+PaWa137m_chromosome_1.2	artemis	gene	81763	83111	.	+	.	ID=PaWa137m.gene.PODCO_102140;Name=PODCO_102140_fragment
+PaWa137m_chromosome_1.2	artemis	mRNA	81763	83111	.	+	.	ID=PaWa137m.mRNA.PODCO_102140;Name=PODCO_102140_fragment;Parent=PaWa137m.gene.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	CDS	81763	82432	.	+	0	ID=PaWa137m.CDS.1;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	CDS	82494	82661	.	+	0	ID=PaWa137m.CDS.2;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	CDS	82725	82913	.	+	0	ID=PaWa137m.CDS.3;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	CDS	82966	83111	.	+	0	ID=PaWa137m.CDS.4;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	exon	81763	82432	.	+	0	ID=PaWa137m.exon.1;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	exon	82494	82661	.	+	0	ID=PaWa137m.exon.2;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	exon	82725	82913	.	+	0	ID=PaWa137m.exon.3;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	exon	82966	83111	.	+	0	ID=PaWa137m.exon.4;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	Intron	82433	82493	.	+	0	ID=PaWa137m.intron.1;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	Intron	82662	82724	.	+	0	ID=PaWa137m.intron.2;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	artemis	Intron	82914	82965	.	+	0	ID=PaWa137m.intron.3;Parent=PaWa137m.mRNA.PODCO_102140
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	83681	83857	 7.9	+	.	Target "Motif:Amolops" 1 217
+PaWa137m_chromosome_1.2	artemis	gene	84407	87054	.	+	.	ID=gene01820;Name=PV05_03319_Exophiala_xenobiotica_fragment
+PaWa137m_chromosome_1.2	artemis	CDS	84407	86311	.	+	0	ID=cds00001.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	CDS	86631	86804	.	+	0	ID=cds00002.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	CDS	86869	87054	.	+	0	ID=cds00003.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	mRNA	84407	87054	.	+	.	ID=mRNA01820;Name=GeneMark.mRNA01820;Parent=gene01820
+PaWa137m_chromosome_1.2	artemis	exon	84407	86311	.	+	.	ID=exon00001.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	exon	86631	86804	.	+	.	ID=exon00002.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	exon	86869	87054	.	+	.	ID=exon00003.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	Intron	86312	86630	.	+	2	ID=intron00001.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	artemis	Intron	86804	86868	.	+	0	ID=intron00002.mRNA01820.1820;Parent=mRNA01820
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	89267	89449	10.9	-	.	Target "Motif:Pelobate" 1761 1943
+PaWa137m_chromosome_1.2	maker	gene	90258	90812	.	-	.	ID=PaWa137m.02410;Name=Pa_6_7965_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	90258	90812	49.2115	-	.	ID=PaWa137m.02410-mRNA1;Parent=PaWa137m.02410;Name=Pa_6_7965_homolog
+PaWa137m_chromosome_1.2	maker	CDS	90258	90440	.	-	0	ID=PaWa137m.02410-mRNA1-CDS1;Parent=PaWa137m.02410-mRNA1
+PaWa137m_chromosome_1.2	maker	CDS	90506	90652	.	-	0	ID=PaWa137m.02410-mRNA1-CDS2;Parent=PaWa137m.02410-mRNA1
+PaWa137m_chromosome_1.2	maker	CDS	90693	90812	.	-	0	ID=PaWa137m.02410-mRNA1-CDS3;Parent=PaWa137m.02410-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	90258	90440	.	-	.	ID=PaWa137m.02410-mRNA1-exon1;Parent=PaWa137m.02410-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	90506	90652	.	-	.	ID=PaWa137m.02410-mRNA1-exon2;Parent=PaWa137m.02410-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	90693	90812	.	-	.	ID=PaWa137m.02410-mRNA1-exon3;Parent=PaWa137m.02410-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	90446	90470	 8.7	+	.	Target "Motif:(GTCA)n" 1 25
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	93729	95594	17.6	-	.	Target "Motif:Discoglosse" 1 1867
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	95956	97805	.	-	.	ID=gene01823;Name=Pa_1_13070_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	95956	97805	.	-	.	ID=mRNA01823;Parent=gene01823;Name=GeneMark.mRNA01823
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	95956	97169	.	-	.	ID=exon00002.mRNA01823.1823;Parent=mRNA01823
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	95956	97169	.	-	2	ID=cds00002.mRNA01823.1823;Parent=mRNA01823
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	97170	97381	.	-	2	ID=intron00001.mRNA01823.1823;Parent=mRNA01823
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	97382	97805	.	-	.	ID=exon00001.mRNA01823.1823;Parent=mRNA01823
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	97382	97805	.	-	0	ID=cds00001.mRNA01823.1823;Parent=mRNA01823
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	96123	96141	 5.6	+	.	Target "Motif:(CGG)n" 1 19
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	99851	99874	 9.1	+	.	Target "Motif:(CCTC)n" 1 25
+PaWa137m_chromosome_1.2	blastx	gene	101356	101511	.	+	.	ID=PaWa137m_Pa_6_2490_fragment;Name=Pa_6_2490_fragment;fragment=true
+PaWa137m_chromosome_1.2	blastx	mRNA	101356	101511	.	+	.	ID=PaWa137m_mRNA.Pa_6_2490_fragment;Parent=PaWa137m_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	blastx	exon	101356	101511	.	+	.	ID=PaWa137m_exon1.Pa_6_2490_fragment;Parent=PaWa137m_mRNA.Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	blastx	CDS	101356	101511	.	+	0	ID=PaWa137m_cds1.Pa_6_2490_fragment;Parent=PaWa137m_mRNA.Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	101770	101816	10.2	+	.	Target "Motif:(TGTGCCG)n" 1 45
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	102582	103796	.	-	.	ID=gene01824;Name=PODCO_511675_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	102582	103796	.	-	.	ID=mRNA01824;Parent=gene01824;Name=PODCO_511675_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	102582	103488	.	-	.	ID=exon00002.mRNA01824.1824;Parent=mRNA01824
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	102582	103488	.	-	1	ID=cds00002.mRNA01824.1824;Parent=mRNA01824
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	103489	103542	.	-	1	ID=intron00001.mRNA01824.1824;Parent=mRNA01824
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	103543	103796	.	-	.	ID=exon00001.mRNA01824.1824;Parent=mRNA01824
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	103543	103796	.	-	0	ID=cds00001.mRNA01824.1824;Parent=mRNA01824
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	105115	105192	16.7	+	.	Target "Motif:Krote_LTR" 64 141
+PaWa137m_chromosome_1.2	protein2genome	gene	105374	105619	.	+	.	ID=PaWa137m_Pa_6_2440_fragment;Name=Pa_6_2440_fragment;fragment=true
+PaWa137m_chromosome_1.2	protein2genome	mRNA	105374	105619	.	+	.	ID=PaWa137m_mRNA_Pa_6_2440_fragment;Name=Pa_6_2440_fragment;Parent=PaWa137m_Pa_6_2440_fragment
+PaWa137m_chromosome_1.2	protein2genome	exon	105374	105619	.	+	.	ID=PaWa137m_exon1_Pa_6_2440_fragment;Parent=PaWa137m_mRNA_Pa_6_2440_fragment
+PaWa137m_chromosome_1.2	protein2genome	CDS	105374	105619	.	+	0	ID=PaWa137m_cds1_Pa_6_2440_fragment;Parent=PaWa137m_mRNA_Pa_6_2440_fragment
+PaWa137m_chromosome_1.2	protein2genome	gene	107205	108091	.	+	.	ID=PaWa137m_MBR_09427_Metarhizium_brunneum_fragment;Name=MBR_09427_Metarhizium_brunneum_fragment;fragment=true
+PaWa137m_chromosome_1.2	protein2genome	mRNA	107205	108091	.	+	.	ID=PaWa137m_mRNA_MBR_09427_Metarhizium_brunneum_fragment;Parent=PaWa137m_MBR_09427_Metarhizium_brunneum_fragment
+PaWa137m_chromosome_1.2	protein2genome	exon	107205	108091	.	+	.	ID=PaWa137m_exon1_MBR_09427_Metarhizium_brunneum_fragment;Parent=PaWa137m_mRNA_MBR_09427_Metarhizium_brunneum_fragment
+PaWa137m_chromosome_1.2	protein2genome	CDS	107205	108091	.	+	0	ID=PaWa137m_cds1_MBR_09427_Metarhizium_brunneum_fragment;Parent=PaWa137m_mRNA_MBR_09427_Metarhizium_brunneum_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	108092	108254	 7.4	-	.	Target "Motif:Grenouille_LTR" 1 175
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	109765	109813	25.1	+	.	Target "Motif:(CTCTCTT)n" 1 49
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	114283	116012	.	-	.	ID=gene01824.2;Name=PODCO_511675_homolog_2			
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	114283	116012	.	-	.	ID=mRNA01824.2;Parent=gene01824.2;Name=PODCO_511675_homolog_2			
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	114283	115474	.	-	.	ID=exon00002.mRNA01824.1824.2;Parent=mRNA01824.2			
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	114283	115474	.	-	1	ID=cds00002.mRNA01824.1824.2;Parent=mRNA01824.2			
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	115475	115524	.	-	1	ID=intron00001.mRNA01824.182.24;Parent=mRNA01824.2			
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	115525	116012	.	-	.	ID=exon00001.mRNA01824.1824.2;Parent=mRNA01824.2			
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	115525	116012	.	-	0	ID=cds00001.mRNA01824.1824.2;Parent=mRNA01824.2	
+PaWa137m_chromosome_1.2	protein2genome	gene	117296	117580	.	-	.	ID=PaWa137m_Pa_1_14730_fragment;Name=Pa_1_14730_fragment;fragment=true
+PaWa137m_chromosome_1.2	protein2genome	mRNA	117296	117580	.	-	.	ID=PaWa137m_mRNA_Pa_1_14730_fragment;Parent=PaWa137m_Pa_1_14730_fragment
+PaWa137m_chromosome_1.2	protein2genome	exon	117296	117580	.	-	.	ID=PaWa137m_exon1_Pa_1_14730_fragment;Parent=PaWa137m_mRNA_Pa_1_14730_fragment
+PaWa137m_chromosome_1.2	protein2genome	CDS	117296	117580	.	-	.	ID=PaWa137m_cds1_Pa_1_14730_fragment;Parent=PaWa137m_mRNA_Pa_1_14730_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	115782	115820	18.9	+	.	Target "Motif:(CCGTTT)n" 1 39
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	119318	119372	 5.9	+	.	Target "Motif:Centrolene_LTR" 1 51
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	120788	120951	22.5	+	.	Target "Motif:Sapo_LTR" 269 426
+PaWa137m_chromosome_1.2	maker	gene	121029	121331	.	-	.	ID=PaWa137m.02414;Name=S40285_10826_Stachybotrys_chlorohalonata_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	121029	121331	99.2	-	.	ID=PaWa137m.02414-mRNA1;Parent=PaWa137m.02414
+PaWa137m_chromosome_1.2	maker	CDS	121029	121331	.	-	0	ID=PaWa137m.02414-mRNA1-CDS1;Parent=PaWa137m.02414-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	121029	121331	.	-	.	ID=PaWa137m.02414-mRNA1-exon1;Parent=PaWa137m.02414-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	122041	122090	18.0	+	.	Target "Motif:A-rich" 1 54
+PaWa137m_chromosome_1.2	maker	gene	122256	122732	.	+	.	ID=PaWa137m.02415;Name=Micbo1qcDRAFT_170078_Microdochium_bolleyi_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	122256	122732	100	+	.	ID=PaWa137m.02415-mRNA1;Parent=PaWa137m.02415
+PaWa137m_chromosome_1.2	maker	CDS	122256	122732	.	+	0	ID=PaWa137m.02415-mRNA1-CDS1;Parent=PaWa137m.02415-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	122256	122732	.	+	.	ID=PaWa137m.02415-mRNA1-exon1;Parent=PaWa137m.02415-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	123259	123696	12.8	+	.	Target "Motif:Grenouille_i" 10657 11143
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	123698	123861	 9.8	+	.	Target "Motif:Grenouille_LTR" 3 187
+PaWa137m_chromosome_1.2	maker	gene	124518	124949	.	+	.	ID=PaWa137m.02416;Name=Pa_5_2010_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	124518	124949	100	+	.	ID=PaWa137m.02416-mRNA1;Parent=PaWa137m.02416
+PaWa137m_chromosome_1.2	maker	CDS	124518	124949	.	+	0	ID=PaWa137m.02416-mRNA1-CDS1;Parent=PaWa137m.02416-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	124518	124949	.	+	.	ID=PaWa137m.02416-mRNA1-exon1;Parent=PaWa137m.02416-mRNA1
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	127161	127207	10.2	+	.	Target "Motif:(ACACGGC)n" 1 45
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	129103	129126	 9.1	+	.	Target "Motif:(GGAG)n" 1 25
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	129399	129425	 8.5	+	.	Target "Motif:(ACA)n" 1 26
+PaWa137m_chromosome_1.2	artemis	gene	129608	130480	24.311	-	.	ID=PaWa137m.gene.002259;Name=Pa_6_8910_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	130164	130480	.	-	0	ID=PaWa137m.mRNA.002259:CDS:3;Name=Pa__6_8910_homolog;Parent=PaWa137m.mRNA.002259
+PaWa137m_chromosome_1.2	artemis	CDS	129608	130100	.	-	0	ID=PaWa137m.CDS.005653;Name=PaWa137m_chromosome_1.2-snap.1869;Parent=PaWa137m.mRNA.002259
+PaWa137m_chromosome_1.2	artemis	mRNA	129608	130480	.	-	.	ID=PaWa137m.mRNA.002259;Name=PaWa137m_chromosome_1.2-snap.1869;Parent=PaWa137m.gene.002259
+PaWa137m_chromosome_1.2	artemis	exon	130164	130480	24.311	-	.	ID=PaWa137m.mRNA.002259:exon:4;Name=PaWa137m_chromosome_1.2-snap.1869;Parent=PaWa137m.mRNA.002259;score=24.311
+PaWa137m_chromosome_1.2	artemis	exon	129608	130100	24.311	-	.	ID=PaWa137m.mRNA.002259:exon:5;Name=PaWa137m_chromosome_1.2-snap.1869;Parent=PaWa137m.mRNA.002259;score=24.311
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	131642	132007	 8.7	-	.	Target "Motif:Dukkeobi_LTR" 1 362
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	132649	132693	24.5	+	.	Target "Motif:(TCTCCT)n" 1 44
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	132130	132819	.	+	.	ID=gene01828;Name=CHGG_04275_Chaetomium_globosum
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	132130	132336	.	+	0	ID=cds00002.mRNA01828.1828;Parent=mRNA01828
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	132466	132819	.	+	0	ID=cds00001.mRNA01828.1828;Parent=mRNA01828
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	132130	132819	.	+	.	ID=mRNA01828;Name=GeneMark.mRNA01828;Parent=gene01828
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	132130	132336	.	+	.	ID=exon00001.mRNA01828.1828;Parent=mRNA01828
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	132466	132819	.	+	.	ID=exon00002.mRNA01828.1828;Parent=mRNA01828
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	132337	132465	.	+	0	ID=intron00001.mRNA01828.1828;Parent=mRNA01828
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	133216	135001	40.5	-	.	Target "Motif:Crapaud_i" 4029 5811
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	135613	136427	36.6	-	.	Target "Motif:Crapaud_i" 221 996
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	136691	137056	 8.7	-	.	Target "Motif:Dukkeobi_LTR" 1 362
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	137569	138368	.	+	.	ID=gene01830;Name=DL98DRAFT_554023_Cadophora_sp_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	137569	138368	.	+	.	ID=mRNA01830;Parent=gene01830;Name=DL98DRAFT_554023_Cadophora_sp_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	137569	137642	.	+	.	ID=exon00001.mRNA01830.1830;Parent=mRNA01830
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	137569	137642	.	+	0	ID=cds00001.mRNA01830.1830;Parent=mRNA01830
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	137643	137695	.	+	0	ID=intron00001.mRNA01830.1830;Parent=mRNA01830
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	137696	138368	.	+	.	ID=exon00003.mRNA01830.1830;Parent=mRNA01830
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	137696	138368	.	+	2	ID=cds00001.mRNA01830.1830;Parent=mRNA01830
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	138397	139347	.	-	.	ID=gene01831;Name=MBR_09427_Metarhizium_brunneum_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	138397	139347	.	-	.	ID=mRNA01831;Parent=gene01831;Name=MBR_09427_Metarhizium_brunneum_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	138397	138635	.	-	.	ID=exon00003.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	138397	138635	.	-	2	ID=cds00003.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	138636	138681	.	-	2	ID=intron00002.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	138682	138792	.	-	.	ID=exon00002.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	138682	138792	.	-	2	ID=cds00002.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	138793	138839	.	-	2	ID=intron00001.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	138840	139347	.	-	.	ID=exon00001.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	138840	139347	.	-	0	ID=cds00001.mRNA01831.1831;Parent=mRNA01831
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	140195	142052	17.8	+	.	Target "Motif:Discoglosse" 1 1867
+PaWa137m_chromosome_1.2	artemis	gene	142377	142951	.	-	.	ID=WaPa137m_4_1930;Name=Pa_4_1930_fragment;fragment=true
+PaWa137m_chromosome_1.2	artemis	mRNA	142377	142951	.	-	.	ID=mRNA_4_1930;Name=Pa_4_1930_fragment;Parent=WaPa137m_4_1930
+PaWa137m_chromosome_1.2	artemis	CDS	142862	142951	.	-	0	ID=mRNA_4_1930:CDS:6;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	CDS	142590	142860	.	-	0	ID=mRNA_4_1930:CDS:7;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	CDS	142537	142587	.	-	0	ID=mRNA_4_1930:CDS:2;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	CDS	142377	142534	.	-	0	ID=cds00001.mRNA_4_1930;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	exon	142862	142951	.	-	.	ID=mRNA_4_1930:exon:11;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	exon	142590	142860	.	-	.	ID=mRNA_4_1930:exon:12;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	exon	142537	142587	.	-	.	ID=mRNA_4_1930:exon:8;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	artemis	exon	142377	142534	.	-	.	ID=mRNA_4_1930:exon:1;Parent=mRNA_4_1930
+PaWa137m_chromosome_1.2	SNAP	gene	146015	147393	2.289	+	.	ID=PaWa137m.gene.002264;Name=CHGG_09441_Chaetomium_globosum_homolog
+PaWa137m_chromosome_1.2	SNAP	mRNA	146015	147393	.	+	.	ID=PaWa137m.mRNA.002264;Parent=PaWa137m.gene.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	SNAP	exon	146015	146119	2.289	+	.	ID=PaWa137m.exon.005664;Parent=PaWa137m.mRNA.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	SNAP	CDS	146015	146119	.	+	0	ID=PaWa137m.CDS.005664;Parent=PaWa137m.mRNA.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	SNAP	exon	146176	146500	4.577	+	.	ID=PaWa137m.exon.005665;Parent=PaWa137m.mRNA.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	SNAP	CDS	146176	146500	.	+	0	ID=PaWa137m.CDS.005665;Parent=PaWa137m.mRNA.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	SNAP	exon	146564	147393	-3.067	+	.	ID=PaWa137m.exon.005666;Parent=PaWa137m.mRNA.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	SNAP	CDS	146564	147393	.	+	0	ID=PaWa137m.CDS.005666;Parent=PaWa137m.mRNA.002264;Name=PaWa137m_chromosome_1.2-snap.1874
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	148074	148095	 4.7	+	.	Target "Motif:(CCGA)n" 1 23
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	148189	148445	12.9	+	.	Target "Motif:Yeti_LTR" 1 258
+PaWa137m_chromosome_1.2	genemark	gene	148550	148712	.	+	.	ID=PaWa137m_NA56DRAFT_749014_Pezoloma_ericae_fragment;Name=NA56DRAFT_749014_Pezoloma_ericae_fragment;fragment=true
+PaWa137m_chromosome_1.2	genemark	mRNA	148550	148712	.	+	.	ID=PaWa137m_mRNA_NA56DRAFT_749014_Pezoloma_ericae_fragment;Parent=PaWa137m_NA56DRAFT_749014_Pezoloma_ericae_fragment
+PaWa137m_chromosome_1.2	genemark	exon	148550	148712	.	+	.	ID=PaWa137m_exon1_NA56DRAFT_749014_Pezoloma_ericae_fragment;Parent=PaWa137m_mRNA_NA56DRAFT_749014_Pezoloma_ericae_fragment
+PaWa137m_chromosome_1.2	genemark	CDS	148550	148712	.	+	0	ID=PaWa137m_cds1_NA56DRAFT_749014_Pezoloma_ericae_fragment;Parent=PaWa137m_mRNA_NA56DRAFT_749014_Pezoloma_ericae_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	149013	149044	17.9	+	.	Target "Motif:(TAT)n" 1 33
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	149056	149486	 6.8	+	.	Target "Motif:Sapo_LTR" 1 426
+PaWa137m_chromosome_1.2	SNAP	gene	150277	150756	-5.738	+	.	ID=PaWa137m.gene.002265;Name=PV05_03319_Exophiala_xenobiotica_fragment
+PaWa137m_chromosome_1.2	SNAP	mRNA	150277	150756	.	+	.	ID=PaWa137m.mRNA.002265;Parent=PaWa137m.gene.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	SNAP	exon	150277	150292	-5.738	+	.	ID=PaWa137m.exon.005667;Parent=PaWa137m.mRNA.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	SNAP	CDS	150277	150292	.	+	0	ID=PaWa137m.CDS.005667;Parent=PaWa137m.mRNA.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	SNAP	exon	150342	150504	17.307	+	.	ID=PaWa137m.exon.005668;Parent=PaWa137m.mRNA.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	SNAP	CDS	150342	150504	.	+	0	ID=PaWa137m.CDS.005668;Parent=PaWa137m.mRNA.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	SNAP	exon	150570	150756	20.482	+	.	ID=PaWa137m.exon.005669;Parent=PaWa137m.mRNA.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	SNAP	CDS	150570	150756	.	+	0	ID=PaWa137m.CDS.005669;Parent=PaWa137m.mRNA.002265;Name=PaWa137m_chromosome_1.2-snap.1875
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	150780	151226	 8.2	-	.	Target "Motif:Pelobate" 1249 1789
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	151671	153300	.	+	.	ID=gene01834;Name=SPI_07993_homolog_ Metallophosphoesterase
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	151671	153300	.	+	.	ID=mRNA01834;Parent=gene01834;Name=GeneMark.mRNA01834
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	151671	152481	.	+	.	ID=exon00001.mRNA01834.1834;Parent=mRNA01834
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	151671	152481	.	+	0	ID=cds00001.mRNA01834.1834;Parent=mRNA01834
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	152482	152551	.	+	0	ID=intron00001.mRNA01834.1834;Parent=mRNA01834
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	152552	153300	.	+	.	ID=exon00002.mRNA01834.1834;Parent=mRNA01834
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	152552	153300	.	+	2	ID=cds00002.mRNA01834.1834;Parent=mRNA01834
+PaWa137m_chromosome_1.2	protein2genome	gene	153483	154589	.	-	.	ID=PaWa137m_K432DRAFT_223816_Lepidopterella_palustris_homolog;Name=K432DRAFT_223816_Lepidopterella_palustris_homolog
+PaWa137m_chromosome_1.2	protein2genome	mRNA	153483	154589	.	-	.	ID=PaWa137m_mRNA_K432DRAFT_223816_Lepidopterella_palustris_homolog;Parent=PaWa137m_K432DRAFT_223816_Lepidopterella_palustris_homolog
+PaWa137m_chromosome_1.2	protein2genome	exon	153483	154589	.	-	.	ID=PaWa137m_exon1_K432DRAFT_223816_Lepidopterella_palustris_homolog;Parent=PaWa137m_mRNA_K432DRAFT_223816_Lepidopterella_palustris_homolog
+PaWa137m_chromosome_1.2	protein2genome	CDS	153483	154589	.	-	0	ID=PaWa137m_cds1_K432DRAFT_223816_Lepidopterella_palustris_homolog;Parent=PaWa137m_mRNA_K432DRAFT_223816_Lepidopterella_palustris_homolog
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	155512	155579	35.0	+	.	Target "Motif:(TTGTA)n" 1 68
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	156426	157844	.	+	.	ID=gene01835;Name=Pa_1_1830_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	156426	157844	.	+	.	ID=mRNA01835;Parent=gene01835;Name=Pa_1_1830_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	156426	156511	.	+	.	ID=exon00001.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	156426	156511	.	+	0	ID=cds00001.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	156512	156579	.	+	0	ID=intron00001.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	156580	157449	.	+	.	ID=exon00002.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	156580	157449	.	+	1	ID=cds00002.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	157450	157507	.	+	1	ID=intron00002.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	157508	157844	.	+	.	ID=exon00003.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	157508	157844	.	+	1	ID=cds00003.mRNA01835.1835;Parent=mRNA01835
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	159108	160838	.	-	.	ID=gene01836;Name=Pa_1_14730_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	159108	160838	.	-	.	ID=mRNA01836;Parent=gene01836;Name=GeneMark.mRNA01836
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	159108	160838	.	-	.	ID=exon00001.mRNA01836.1836;Parent=mRNA01836
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	159108	160838	.	-	0	ID=cds00001.mRNA01836.1836;Parent=mRNA01836
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	162646	162951	 8.8	+	.	Target "Motif:Dendrobates" 2792 3119
+PaWa137m_chromosome_1.2	blastx	gene	165090	165314	.	-	.	ID=PaWa137m_Pa_6_2490_fragment;Name=Pa_6_2490_fragment;fragment=true
+PaWa137m_chromosome_1.2	blastx	mRNA	165090	165314	.	-	.	ID=PaWa137m_mRNA_Pa_6_2490_fragment;Parent=PaWa137m_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	blastx	exon	165090	165314	.	-	.	ID=PaWa137m_exon1_Pa_6_2490_fragment;Parent=PaWa137m_mRNA_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	blastx	CDS	165090	165314	.	-	0	ID=PaWa137m_cds1_Pa_6_2490_fragment;Parent=PaWa137m_mRNA_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	165467	166467	14.8	+	.	Target "Motif:Discoglosse" 863 1867
+PaWa137m_chromosome_1.2	maker	gene	167619	168050	.	-	.	ID=PaWa137m.02425;Name=S7711_10142_Stachybotrys_chartarum_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	167619	168050	94.4	-	.	ID=PaWa137m.02425-mRNA1;Parent=PaWa137m.02425
+PaWa137m_chromosome_1.2	maker	CDS	167619	168050	.	-	0	ID=PaWa137m.02425-mRNA1-CDS1;Parent=PaWa137m.02425-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	167619	168050	.	-	.	ID=PaWa137m.02425-mRNA1-exon1;Parent=PaWa137m.02425-mRNA1
+PaWa137m_chromosome_1.2	blastx	gene	168546	169430	.	-	.	ID=PaWa137m_HIM_12183;Name=HIM_12183_Hirsutella_minnesotensis_homolog
+PaWa137m_chromosome_1.2	blastx	mRNA	168546	169430	.	-	.	ID=PaWa137m_mRNA_HIM_12183;Parent=PaWa137m_HIM_12183
+PaWa137m_chromosome_1.2	blastx	CDS	168546	169430	.	-	0	ID=PaWa137m_cds1_HIM_12183;Parent=PaWa137m_mRNA_HIM_12183
+PaWa137m_chromosome_1.2	blastx	exon	168546	169430	.	-	.	ID=PaWa137m_exon1_HIM_12183;Parent=PaWa137m_mRNA_HIM_12183
+PaWa137m_chromosome_1.2	blastx	gene	169533	169832	.	+	.	ID=PaWa137m_M441DRAFT_90628;Name=M441DRAFT_90628_Trichoderma_asperellum_homolog
+PaWa137m_chromosome_1.2	blastx	mRNA	169533	169832	.	+	.	ID=PaWa137m_mRNA_M441DRAFT_90628;Parent=PaWa137m_M441DRAFT_90628
+PaWa137m_chromosome_1.2	blastx	exon	169533	169832	.	+	.	ID=PaWa137m_exon1_M441DRAFT_90628;Parent=PaWa137m_mRNA_M441DRAFT_90628
+PaWa137m_chromosome_1.2	blastx	CDS	169533	169832	.	+	0	ID=PaWa137m_cds1_M441DRAFT_90628;Parent=PaWa137m_mRNA_M441DRAFT_90628
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	171050	171511	.	+	.	ID=gene01838;Name=S7711_11475_Stachybotrys_chartarum_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	171050	171511	.	+	.	ID=mRNA01838;Parent=gene01838;Name=GeneMark.mRNA01838
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	171050	171511	.	+	.	ID=exon00001.mRNA01838.1838;Parent=mRNA01838
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	171050	171511	.	+	0	ID=cds00001.mRNA01838.1838;Parent=mRNA01838
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	172764	173701	.	+	.	ID=gene01839;Name=S40293_11413_Stachybotrys_chartarum
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	172764	173701	.	+	.	ID=mRNA01839;Parent=gene01839;Name=GeneMark.mRNA01839
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	172764	173027	.	+	.	ID=exon00001.mRNA01839.1839;Parent=mRNA01839
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	172764	173027	.	+	0	ID=cds00001.mRNA01839.1839;Parent=mRNA01839
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	173028	173077	.	+	0	ID=intron00001.mRNA01839.1839;Parent=mRNA01839
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	173078	173701	.	+	.	ID=exon00002.mRNA01839.1839;Parent=mRNA01839
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	173078	173701	.	+	0	ID=cds00001.mRNA01839.1839;Parent=mRNA01839
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	175360	175464	30.5	-	.	Target "Motif:Callulops" 170 279
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	175447	175540	21.2	-	.	Target "Motif:Yeti_LTR" 5 239
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	175541	175633	17.7	-	.	Target "Motif:Bombinator" 326 406
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	177879	180059	.	+	.	ID=gene01840;Name=NA56DRAFT_703776_Pezoloma_ericae_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	177879	180059	.	+	.	ID=mRNA01840;Parent=gene01840;Name=GeneMark.mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	177879	178247	.	+	.	ID=exon00001.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	177879	178247	.	+	0	ID=cds00001.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	178248	178296	.	+	0	ID=intron00001.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	178297	180026	.	+	.	ID=exon00002.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	178297	180026	.	+	0	ID=cds00002.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	180027	180049	.	+	0	ID=intron00002.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	180050	180059	.	+	.	ID=exon00003.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	180050	180059	.	+	1	ID=cds00003.mRNA01840.1840;Parent=mRNA01840
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	178054	178103	20.9	+	.	Target "Motif:(CCAAGA)n" 1 47
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	181236	181266	11.2	+	.	Target "Motif:GA-rich" 1 31
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	183882	183932	21.6	+	.	Target "Motif:Krote_LTR" 403 454
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	185313	185560	15.0	+	.	Target "Motif:Nephelobates_LTR" 78 323
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	185379	185677	28.7	-	.	Target "Motif:Atelopus_LTR" 53 357
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	185578	185728	14.9	+	.	Target "Motif:Nephelobates_LTR" 298 445
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	185732	186946	.	-	.	ID=gene01841;Name=Micbo1qcDRAFT_129033_Microdochium_bolleyi_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	185732	186946	.	-	.	ID=mRNA01841;Parent=gene01841;Name=GeneMark.mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	185732	185739	.	-	.	ID=exon00005.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	185732	185739	.	-	2	ID=cds00005.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	185740	185801	.	-	2	ID=intron00004.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	185802	186259	.	-	.	ID=exon00004.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	185802	186259	.	-	1	ID=cds00004.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	186260	186310	.	-	1	ID=intron00003.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	186311	186687	.	-	.	ID=exon00003.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	186311	186687	.	-	0	ID=cds00003.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	186688	186734	.	-	0	ID=intron00002.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	186735	186839	.	-	.	ID=exon00002.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	186735	186839	.	-	0	ID=cds00002.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	186840	186892	.	-	0	ID=intron00001.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	186893	186946	.	-	.	ID=exon00001.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	186893	186946	.	-	0	ID=cds00001.mRNA01841.1841;Parent=mRNA01841
+PaWa137m_chromosome_1.2	artemis	gene	187823	189441	.	+	.	ID=gene01842;Name=Pa_5_3190_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	187823	187993	.	+	0	ID=cds00004.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	CDS	188045	188358	.	+	0	ID=cds00003.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	CDS	188408	188843	.	+	0	ID=cds00002.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	CDS	188890	189441	.	+	0	ID=cds00001.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	mRNA	187823	189441	.	+	.	ID=mRNA01842;Name=GeneMark.mRNA01842;Parent=gene01842
+PaWa137m_chromosome_1.2	artemis	exon	187823	187993	.	+	.	ID=exon00004.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	exon	188045	188358	.	+	.	ID=exon00001.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	exon	188408	188843	.	+	.	ID=exon00002.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	exon	188890	189441	.	+	.	ID=exon00003.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	Intron	188359	188407	.	+	0	ID=intron00001.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	artemis	Intron	188844	188889	.	+	1	ID=intron00002.mRNA01842.1842;Parent=mRNA01842
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	189979	190089	11.7	+	.	Target "Motif:Dendrobates" 2014 2125
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	190089	190132	11.4	+	.	Target "Motif:Dendrobates" 2206 2249
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	191800	191819	 0.0	+	.	Target "Motif:(CCG)n" 1 20
+PaWa137m_chromosome_1.2	artemis	gene	192208	195577	.	+	.	ID=gene01843;Name=Pa_7_6640_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	192208	192447	.	+	0	ID=cds00001.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	CDS	192506	193792	.	+	0	ID=cds00002.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	CDS	193806	194996	.	+	0	ID=cds00003.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	CDS	195061	195387	.	+	0	ID=cds00004.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	CDS	195434	195577	.	+	0	ID=cds00005.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	mRNA	192208	195577	.	+	.	ID=mRNA01843;Name=GeneMark.mRNA01843;Parent=gene01843
+PaWa137m_chromosome_1.2	artemis	exon	192208	192447	.	+	.	ID=exon00001.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	exon	192506	193792	.	+	.	ID=exon00002.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	exon	193806	194996	.	+	.	ID=exon00003.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	exon	195061	195387	.	+	.	ID=exon00004.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	exon	195434	195577	.	+	.	ID=exon00005.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	Intron	192448	192505	.	+	0	ID=intron00001.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	Intron	193793	193805	.	+	0	ID=intron00002.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	Intron	194997	195060	.	+	1	ID=intron00003.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	artemis	Intron	195388	195433	.	+	2	ID=intron00004.mRNA01843.1843;Parent=mRNA01843
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	196644	198316	 3.3	-	.	Target "Motif:Pelobate" 271 1948
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	199086	199109	 9.1	+	.	Target "Motif:(GGAG)n" 1 25
+PaWa137m_chromosome_1.2	blastn	gene	201719	202736	.	+	.	ID=PaWa137m_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Name=SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa137m_chromosome_1.2	blastn	mRNA	201719	202736	.	+	.	ID=PaWa137m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa137m_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa137m_chromosome_1.2	blastn	exon	201719	202248	.	+	0	ID=PaWa137m_exon1_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa137m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa137m_chromosome_1.2	blastn	exon	202304	202736	.	+	1	ID=PaWa137m_exon2_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa137m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa137m_chromosome_1.2	blastn	CDS	201719	202248	.	+	0	ID=PaWa137m_cds1_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa137m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa137m_chromosome_1.2	blastn	CDS	202304	202736	.	+	1	ID=PaWa137m_cds2_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa137m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	203141	203980	.	+	.	ID=gene01844;Name=Pa_6_2440_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	203141	203980	.	+	.	ID=mRNA01844;Parent=gene01844
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	203141	203176	.	+	.	ID=exon00001.mRNA01844.1844;Parent=mRNA01844
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	203141	203176	.	+	0	ID=cds00001.mRNA01844.1844;Parent=mRNA01844
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	203177	203233	.	+	0	ID=intron00001.mRNA01844.1844;Parent=mRNA01844
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	203234	203980	.	+	.	ID=exon00002.mRNA01844.1844;Parent=mRNA01844
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	203234	203980	.	+	0	ID=cds00001.mRNA01844.1844;Parent=mRNA01844
+PaWa137m_chromosome_1.2	blastn	gene	204191	204464	.	-	.	ID=PaWa137m_Pa_1_1830_fragment;fragment;Name=Pa_1_1830_fragment;fragment=true
+PaWa137m_chromosome_1.2	blastn	mRNA	204191	204464	.	-	.	ID=PaWa137m_mRNA_Pa_1_1830_fragment;Parent=PaWa137m_Pa_1_1830_fragment
+PaWa137m_chromosome_1.2	blastn	exon	204191	204274	.	-	0	ID=PaWa137m_exon1_Pa_1_1830_fragment;Parent=PaWa137m_mRNA_Pa_1_1830_fragment
+PaWa137m_chromosome_1.2	blastn	exon	204276	204464	.	-	1	ID=PaWa137m_exon2_Pa_1_1830_fragment;Parent=PaWa137m_mRNA_Pa_1_1830_fragment
+PaWa137m_chromosome_1.2	blastn	CDS	204191	204274	.	-	0	ID=PaWa137m_cds1_Pa_1_1830_fragment;Parent=PaWa137m_mRNA_Pa_1_1830_fragment
+PaWa137m_chromosome_1.2	blastn	CDS	204276	204464	.	-	1	ID=PaWa137m_cds2_Pa_1_1830_fragment;Parent=PaWa137m_mRNA_Pa_1_1830_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	210171	210283	21.6	+	.	Target "Motif:A-rich" 1 112
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	211465	211514	20.0	-	.	Target "Motif:Yeti_i" 4149 4198
+PaWa137m_chromosome_1.2	SNAP	gene	211629	212141	1.262	-	.	ID=PaWa137m.gene.002278;Name=PpBr36_10652_Pyricularia_pennisetigena_homolog
+PaWa137m_chromosome_1.2	SNAP	mRNA	211629	212141	.	-	.	ID=PaWa137m.mRNA.002278;Parent=PaWa137m.gene.002278;Name=PaWa137m_chromosome_1.2-snap.1888
+PaWa137m_chromosome_1.2	SNAP	exon	211629	212141	5.890	-	.	ID=PaWa137m.exon.005701;Parent=PaWa137m.mRNA.002278;Name=PaWa137m_chromosome_1.2-snap.1888
+PaWa137m_chromosome_1.2	SNAP	CDS	211629	212141	.	-	0	ID=PaWa137m.CDS.005701;Parent=PaWa137m.mRNA.002278;Name=PaWa137m_chromosome_1.2-snap.1888
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	213073	215022	.	-	.	ID=gene01845;Name=Pa_4_3510_fragment;fragment=true
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	213073	215022	.	-	.	ID=mRNA01845;Parent=gene01845;Name=GeneMark.mRNA01845
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	213073	213945	.	-	.	ID=exon00001.mRNA01845.1845;Parent=mRNA01845
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	213073	213945	.	-	0	ID=cds00001.mRNA01845.1845;Parent=mRNA01845
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	213992	214162	.	-	.	ID=exon00002.mRNA01845.1845;Parent=mRNA01845
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	213992	214162	.	-	1	ID=cds00002.mRNA01845.1845;Parent=mRNA01845
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	214243	215022	.	-	.	ID=exon00003.mRNA01845.1845;Parent=mRNA01845
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	214243	215022	.	-	0	ID=cds00003.mRNA01845.1845;Parent=mRNA01845
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	215361	215435	 5.6	+	.	Target "Motif:(TG)n" 1 75
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	219032	219058	17.6	+	.	Target "Motif:(TCCG)n" 1 27
+PaWa137m_chromosome_1.2	blastx	gene	220103	220426	.	+	.	ID=PaWa137m_Pa_6_2490_fragment;Name=Pa_6_2490_fragment;fragment=true
+PaWa137m_chromosome_1.2	blastx	mRNA	220103	220426	.	+	.	ID=PaWa137m_mRNA_Pa_6_2490_fragment;Parent=PaWa137m_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	blastx	exon	220103	220426	.	+	.	ID=PaWa137m_exon1_Pa_6_2490_fragment;Parent=PaWa137m_mRNA_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	blastx	CDS	220103	220426	.	+	0	ID=PaWa137m_cds1_Pa_6_2490_fragment;Parent=PaWa137m_mRNA_Pa_6_2490_fragment
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	223668	226315	.	-	.	ID=gene01847;Name=GE09DRAFT_1263105_Coniochaeta_sp_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	223668	226315	.	-	.	ID=mRNA01847;Parent=gene01847;
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	223668	223854	.	-	.	ID=exon00004.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	223668	223854	.	-	1	ID=cds00001.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	223855	223918	.	-	1	ID=intron00001.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	223919	224092	.	-	.	ID=exon00003.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	223919	224092	.	-	1	ID=cds00001.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	224093	224165	.	-	1	ID=intron00002.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	224166	224357	.	-	.	ID=exon00002.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	224166	224357	.	-	1	ID=cds00001.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	224358	224411	.	-	1	ID=intron00003.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	224412	226315	.	-	.	ID=exon00001.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	224412	226315	.	-	0	ID=cds00001.mRNA01847.1847;Parent=mRNA01847
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	226588	226874	 7.0	-	.	Target "Motif:Grenouille_i" 8304 8590
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	229697	229976	.	+	.	ID=gene01849;Name=CHGG_09572_Chaetomium_globosum_fragment;fragment=true
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	229697	229976	.	+	.	ID=mRNA01849;Parent=gene01849;Name=GeneMark.mRNA01849
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	229697	229918	.	+	.	ID=exon00001.mRNA01849.1849;Parent=mRNA01849
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	229697	229918	.	+	0	ID=cds00001.mRNA01849.1849;Parent=mRNA01849
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	229919	229970	.	+	0	ID=intron00001.mRNA01849.1849;Parent=mRNA01849
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	229971	229976	.	+	.	ID=exon00002.mRNA01849.1849;Parent=mRNA01849
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	229971	229976	.	+	0	ID=cds00001.mRNA01849.1849;Parent=mRNA01849
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	229985	230077	11.8	-	.	Target "Motif:Pelobate" 1851 1943
+PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	231369	232112	.	+	.	ID=gene01850;Name=MBR_09427_Metarhizium_brunneum_homolog
+PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	231369	232112	.	+	.	ID=mRNA01850;Parent=gene01850;Name=GeneMark.mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	231369	231522	.	+	.	ID=exon00001.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	231369	231522	.	+	0	ID=cds00001.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	231523	231569	.	+	0	ID=intron00001.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	231570	231680	.	+	.	ID=exon00002.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	231570	231680	.	+	2	ID=cds00001.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	Intron	231681	231735	.	+	2	ID=intron00002.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	exon	231736	232112	.	+	.	ID=exon00003.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	GeneMark.hmm3	CDS	231736	232112	.	+	2	ID=cds00001.mRNA01850.1850;Parent=mRNA01850
+PaWa137m_chromosome_1.2	artemis	gene	231978	232337	.	-	.	ID=PaWa137m_AJ78_06594_Emergomyces_pasteurianus_homolog;Name=AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	mRNA	231978	232337	.	-	.	ID=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	exon	231978	232169	.	-	.	ID=PaWa137m_exon3_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	231978	232169	.	-	0	ID=PaWa137m_cds3_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	exon	232173	232210	.	-	.	ID=PaWa137m_exon1_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	232173	232210	.	-	1	ID=PaWa137m_cds1_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	Intron	232211	232263	.	-	0	ID=PaWa137m_intron1_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	exon	232264	232337	.	-	.	ID=PaWa137m_exon2_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	artemis	CDS	232264	232337	.	-	0	ID=PaWa137m_cds2_AJ78_06594_Emergomyces_pasteurianus_homolog;Parent=PaWa137m_mRNA_AJ78_06594_Emergomyces_pasteurianus_homolog
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	234972	235003	 3.2	+	.	Target "Motif:(TCTTCC)n" 1 32
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	235390	235477	20.7	+	.	Target "Motif:Mainduk_LTR" 308 394
+PaWa137m_chromosome_1.2	maker	gene	235560	237259	.	-	.	ID=PaWa137m.02432;Name=Pa_5_3190_homolog
+PaWa137m_chromosome_1.2	maker	mRNA	235560	237259	30.87836	-	.	ID=PaWa137m.02432-mRNA1;Parent=PaWa137m.02432
+PaWa137m_chromosome_1.2	maker	CDS	235560	236294	.	-	0	ID=PaWa137m.02432-mRNA1-CDS1;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	CDS	236341	236776	.	-	1	ID=PaWa137m.02432-mRNA1-CDS2;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	CDS	236826	237139	.	-	0	ID=PaWa137m.02432-mRNA1-CDS3;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	CDS	237191	237259	.	-	0	ID=PaWa137m.02432-mRNA1-CDS4;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	235560	236294	.	-	.	ID=PaWa137m.02432-mRNA1-exon1;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	236341	236776	.	-	.	ID=PaWa137m.02432-mRNA1-exon2;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	236826	237139	.	-	.	ID=PaWa137m.02432-mRNA1-exon3;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	maker	exon	237191	237259	.	-	.	ID=PaWa137m.02432-mRNA1-exon4;Parent=PaWa137m.02432-mRNA1
+PaWa137m_chromosome_1.2	est2genome	gene	237752	238687	.	+	.	ID=PaWa137m_CSUB01_08519_Colletotrichum_sublineola_homolog;Name=CSUB01_08519_Colletotrichum_sublineola_homolog;
+PaWa137m_chromosome_1.2	est2genome	mRNA	237752	238687	.	+	.	ID=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	exon	237752	237859	.	+	.	ID=PaWa137m_exon1_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	CDS	237752	237859	.	+	0	ID=PaWa137m_CDS1_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	exon	237910	238048	.	+	.	ID=PaWa137m_exon2_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	CDS	237910	238048	.	+	1	ID=PaWa137m_CDS2_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	exon	238106	238290	.	+	.	ID=PaWa137m_exon3_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	CDS	238106	238290	.	+	1	ID=PaWa137m_CDS3_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	exon	238344	238687	.	+	.	ID=PaWa137m_exon4_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	est2genome	CDS	238344	238687	.	+	0	ID=PaWa137m_CDS4_CSUB01_08519_Colletotrichum_sublineola_homolog;Parent=PaWa137m_mRNA_CSUB01_08519_Colletotrichum_sublineola_homolog
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	239122	239229	23.7	-	.	Target "Motif:Hama_LTR" 138 244
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	239606	240190	34.8	+	.	Target "Motif:Rana_i" 3894 4470
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	239697	241689	40.1	+	.	Target "Motif:Crapaud_i" 3794 5784
+PaWa137m_chromosome_1.2	SNAP	gene	242285	242572	4.094	-	.	ID=PaWa137m.gene.002286;Name=MYCTH_64320_Thermothelomyces_thermophilus_homolog
+PaWa137m_chromosome_1.2	SNAP	mRNA	242285	242572	.	-	.	ID=PaWa137m.mRNA.002286;Parent=PaWa137m.gene.002286;Name=PaWa137m_chromosome_1.2-snap.1896
+PaWa137m_chromosome_1.2	SNAP	exon	242285	242572	20.201	-	.	ID=PaWa137m.exon.005720;Parent=PaWa137m.mRNA.002286;Name=PaWa137m_chromosome_1.2-snap.1896
+PaWa137m_chromosome_1.2	SNAP	CDS	242285	242572	.	-	0	ID=PaWa137m.CDS.005720;Parent=PaWa137m.mRNA.002286;Name=PaWa137m_chromosome_1.2-snap.1896
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	242696	242821	 4.0	+	.	Target "Motif:Dukkeobi_LTR" 1 125
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	242825	243255	 6.8	+	.	Target "Motif:Sapo_LTR" 1 426
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	243400	243512	15.9	-	.	Target "Motif:Bombinator" 1 113
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	243528	243894	 6.7	-	.	Target "Motif:Dukkeobi_LTR" 1 362
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	244310	244485	15.9	-	.	Target "Motif:Allophryne" 11 287
+PaWa137m_chromosome_1.2	blastx	gene	245048	245167	.	+	.	ID=PaWa137m_DL765_007700_Monosporascus_sp_fragment;Name=DL765_007700_Monosporascus_sp_fragment;fragment=true
+PaWa137m_chromosome_1.2	blastx	mRNA	245048	245167	.	+	.	ID=PaWa137m_mRNA_DL765_007700_Monosporascus_sp_fragment;Parent=PaWa137m_DL765_007700_Monosporascus_sp_fragment
+PaWa137m_chromosome_1.2	blastx	exon	245048	245167	.	+	.	ID=PaWa137m_exon1_DL765_007700_Monosporascus_sp_fragment;Parent=PaWa137m_mRNA_DL765_007700_Monosporascus_sp_fragment
+PaWa137m_chromosome_1.2	blastx	CDS	245048	245167	.	+	0	ID=PaWa137m_cds1_DL765_007700_Monosporascus_sp_fragment;Parent=PaWa137m_mRNA_DL765_007700_Monosporascus_sp_fragment
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	245563	245661	 7.1	-	.	Target "Motif:Centrolene_LTR" 1 99
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	245741	245881	14.7	-	.	Target "Motif:Nephelobates_LTR" 298 434
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	245767	246100	28.3	+	.	Target "Motif:Atelopus_LTR" 41 364
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	245899	246261	20.6	-	.	Target "Motif:Nephelobates_LTR" 4 323
+PaWa137m_chromosome_1.2	RepeatMasker	similarity	247271	247508	11.7	+	.	Target "Motif:Schoutedenella" 1 231

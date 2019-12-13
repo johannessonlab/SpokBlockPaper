@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 470 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/SpokBlockPaper/CircosBlock/CircosBlock.smk:
+Missing input files for rule circos:
+circos/etc/circos.conf

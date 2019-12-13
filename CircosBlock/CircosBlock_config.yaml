@@ -1,0 +1,20 @@
+### Circos plot of the Spok block vs the host genome: *P. anserina* PaWa137m
+### ----------------------------------
+# The Circos configuration files must be in a folder called "circos" in the
+# working directory
+
+# Fasta files
+block: "data/PaWa137m_SpokBlock.fa" # The focal block (from TSD to TSD)
+host: "data/PaWa137m_chrs.fa" # Chosen strain, without mitochondrial scaffold!
+otherblocks: "data/OtherBlocks.fa" # a fasta file with the sequence of other representative blocks to define the conserved bits (from TSD to TSD)
+
+# Annotations
+blockgff: "data/PaWa137m_nice_SpokBlock_Slice_5790592_6038100.gff" # In coordinates of the block, not of the host genome
+# With coordinates adjusted to match the block alone (not the position in the original assembly).
+# I did this like:
+# $ python GFFSlicer.py PaWa137m_nice_SpokBlock.gff 5790592 6038100
+# https://github.com/SLAment/Genomics/blob/master/GenomeAnnotation/GFFSlicer.py
+# Notice that the coordinates are based 1
+
+hostTEs: "data/PaWa137m.repeatmasker.gff" # RepeatMasker annotation of the host genome
+hostgenes: "data/PaWa137m.nice-2.00.gff3" # Gene annotation of the host genome
