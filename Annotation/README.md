@@ -9,7 +9,7 @@ The reference genome of *P. anserina* (strain S), must also be there. I was orig
 
 Likewise, the RNAseq data sets must be in the path `data/rnaseq/rnasample_postQC.1.fq.gz`, where `rnasample` matches the code in the configuration file.
 
-The reference genome of *P. comata* is that of the strain T (also known as T~D in [Vogan et al. 2019](https://elifesciences.org/articles/46454)) was published by [Silar et al. 2018](https://link.springer.com/article/10.1007/s00438-018-1497-3). It's deposited in the European Nucleotide Archive, [GCA_900290415.1](https://www.ebi.ac.uk/ena/data/view/GCA_900290415.1). Unfortunately the names are very ugly, so I modified them to be more like `Chromosome_1`, like such:
+The reference genome of *P. comata* is that of the strain T (also known as T<sub>D</sub> in [Vogan et al. 2019](https://elifesciences.org/articles/46454)) was published by [Silar et al. 2018](https://link.springer.com/article/10.1007/s00438-018-1497-3). It's deposited in the European Nucleotide Archive, [GCA_900290415.1](https://www.ebi.ac.uk/ena/data/view/GCA_900290415.1). Unfortunately the names are very ugly, so I modified them to be more like `Chromosome_1`, like such:
 
     $ cat GCA_900290415.1_version1_genomic.fna | sed 's;\(>[A-Z0-9\.]*\)\s\([a-zA-Z ,]*\): ;>Chromosome_;' > PODCO.fa
     $ sed -i 's;Chromosome_mitochondrion;Mitochondrion;' PODCO.fa
