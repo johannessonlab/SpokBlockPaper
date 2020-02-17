@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 57 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/SpokBlockPaper/TEManualCuration/TEManualCuration.smk:
-Missing input files for rule cleanlib:
-GettingTElibrary/results/Podan2/Podan2_RM.lib
