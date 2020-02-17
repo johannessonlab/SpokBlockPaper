@@ -1,0 +1,46 @@
+## Configuration file for the PaAnnotation pipeline: second version 
+# Spok block paper version
+# ---------------------------------------------------
+# Make sure to keep the (sampleslongreads + samplesillu) in the same order as
+# periden and sppcode!
+
+annotationversion: 2.00 # The result looks something like PaWa21m.nice-2.00.gff3
+
+# The reference genome
+Podan2genesfas: "data/Podan2/Podan2_AssemblyScaffoldsmtGenesEd_gene.fas" # Genes from Podan2 plus I manually added the 3 genes from the MAT- idiomorph
+
+# Sample codes
+sampleslongreads: ["PaTgp", "PaWa137m", "PaYp", "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "Podan2", "CBS237.71m", "PcWa139m", "PODCO"]
+samplesillu: ["PcWa131m"]
+
+## TE libraries
+PodoTElib: "data/PodoTE-1.00.lib"
+
+## RNAseq data
+# They should locate in path "data/rnaseq/{rnasample}_postQC.1.fq.gz", eg. "data/rnaseq/PaWa63m_RNA_postQC.1.fq.gz",
+# In the same order! 
+samplesRNA: ["PaWa58BCvsS", "PcWa131m_RNA", "PaWa63m_RNA"]
+parentals: ["PaWa58m", "PcWa139m", "PaWa63p"] # what genomes are they gonna get mapped to?
+
+
+## Scripts
+gff2gff3: "scripts/gffread2EVM.py"
+runTransDecoder: "scripts/runTransDecoder.sh" # Designed for Uppmax
+gff3tofasta: "scripts/gffutils2fasta.py" # (v. 1.31) Available at https://github.com/SLAment/Genomics/blob/master/GenomeAnnotation/gffutils2fasta.py
+GffgenesIDFix: "scripts/GffgenesIDFix.py" # Brute force naming
+GFFnumerator: "scripts/GFFnumerator.py"
+gff3addproduct: "scripts/gff3addproduct.py" # Also brute force
+
+## Training files
+snapHMM: "hmms/PaWa28m_PacBioChrPilon.hmm"
+GeneMarkMod: "hmms/gmhmm.mod"
+
+## Renaming gene models parameters
+# In the same order as the samples of all genomes where AllSamples = sampleslongreads + samplesillu
+periden: [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 90, 93, 93] # Identity threshold to decide if something is an ortholog
+sppcode: [Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pb, Pc, Pc] # Name appended to the gene names, like Pa_5_10 in P. anserina --> Pc_5_10 in P. comata
+
+MINSIZE: 50000 # Min size of a contig to be annotated
+
+## Known gene products
+geneproducts: "data/KnownProducts.txt"
