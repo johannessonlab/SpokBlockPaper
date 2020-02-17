@@ -3,13 +3,13 @@
 I designed this pipeline to run in [Uppmax](https://uppmax.uu.se/), but if one installs MAKER and dependencies locally, it should be possible to run it locally too.
 
 ## The data
-The genome assemblies must be already in the path `data/genomes/` with a format such as `data/genomes/strain.fa`, where strain stands for the strain code as in the configuration file.
+The genome assemblies must be already in the path `data/genomes/` with a format such as `data/genomes/strain.fa`, where `strain` stands for the strain code as in the configuration file.
 
-The reference genome of *P. anserina* (strain S), must also be there. I was originally published by [Espagne et al. (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441463/), and improved in the Joint Genome Institute MycoCosm [website](https://genome.jgi.doe.gov/programs/fungi/index.jsf) under the name Podan2. There is a Podan3, but as far as I can tell is the same assembly. It's available also at [https://github.com/johannessonlab/SpokPaper/blob/master/Fig4_S3_Backcrosses/extras/Podan2_AssemblyScaffoldsmt.fa](https://github.com/johannessonlab/SpokPaper/blob/master/Fig4_S3_Backcrosses/extras/Podan2_AssemblyScaffoldsmt.fa). For this pipeline it must be present in `data/genomes/Podan2.fa`
+The reference genome of *P. anserina* (strain S), must also be there. I was originally published by [Espagne et al. (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441463/), and improved in the Joint Genome Institute MycoCosm [website](https://genome.jgi.doe.gov/programs/fungi/index.jsf) under the name Podan2. There is a Podan3, but as far as I can tell is the same assembly. It's available also [here](https://github.com/johannessonlab/SpokBlockPaper/blob/master/GettingTElibrary/data/genomes/Podan2.fa). For this pipeline it must be present in `data/genomes/Podan2.fa`
 
 Likewise, the RNAseq data sets must be in the path `data/rnaseq/rnasample_postQC.1.fq.gz`, where `rnasample` matches the code in the configuration file.
 
-The reference genome of P. comata is that of the strain T (also known as TD in [Vogan et al. 2019](https://elifesciences.org/articles/46454)) was published by [Silar et al. 2018](https://link.springer.com/article/10.1007/s00438-018-1497-3). It's deposited in the European Nucleotide Archive, [GCA_900290415.1](https://www.ebi.ac.uk/ena/data/view/GCA_900290415.1). Unfortunately the names are very ugly, so I modified them to be more like `Chromosome_1`, like such:
+The reference genome of *P. comata* is that of the strain T (also known as T~D in [Vogan et al. 2019](https://elifesciences.org/articles/46454)) was published by [Silar et al. 2018](https://link.springer.com/article/10.1007/s00438-018-1497-3). It's deposited in the European Nucleotide Archive, [GCA_900290415.1](https://www.ebi.ac.uk/ena/data/view/GCA_900290415.1). Unfortunately the names are very ugly, so I modified them to be more like `Chromosome_1`, like such:
 
     $ cat GCA_900290415.1_version1_genomic.fna | sed 's;\(>[A-Z0-9\.]*\)\s\([a-zA-Z ,]*\): ;>Chromosome_;' > PODCO.fa
     $ sed -i 's;Chromosome_mitochondrion;Mitochondrion;' PODCO.fa
@@ -45,6 +45,60 @@ I wrote a few scripts for certain tasks, mostly to manipulate the gff3 files, an
 
     $ ls scripts/
     GFFnumerator.py    GffgenesIDFix.py   gff3addproduct.py   gffread2EVM.py     gffutils2fasta.py  runTransDecoder.sh
+
+## The configuration file
+
+The configuration file contains the paths to the necessary files to run the pipeline.
+    
+    $ cat Annotation/PaAnnotation_config.yml
+```yaml
+## Configuration file for the PaAnnotation pipeline: second version
+# Spok block paper version
+# ---------------------------------------------------
+# Make sure to keep the (sampleslongreads + samplesillu) in the same order as
+# periden and sppcode!
+
+annotationversion: 2.00 # The result looks something like PaWa21m.nice-2.00.gff3
+
+# The reference genome
+Podan2genesfas: "data/Podan2/Podan2_AssemblyScaffoldsmtGenesEd_gene.fas" # Genes from Podan2 plus I manually added the 3 genes from the MAT- idiomorph
+
+# Sample codes
+sampleslongreads: ["PaTgp", "PaWa137m", "PaYp", "PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "Podan2", "CBS237.71m", "PcWa139m", "PODCO"]
+samplesillu: ["PcWa131m"]
+
+## TE libraries
+PodoTElib: "data/PodoTE-1.00.lib"
+
+## RNAseq data
+# They should locate in path "data/rnaseq/{rnasample}_postQC.1.fq.gz", eg. "data/rnaseq/PaWa63m_RNA_postQC.1.fq.gz",
+# In the same order!
+samplesRNA: ["PaWa58BCvsS", "PcWa131m_RNA", "PaWa63m_RNA"]
+parentals: ["PaWa58m", "PcWa139m", "PaWa63p"] # what genomes are they gonna get mapped to?
+
+
+## Scripts
+gff2gff3: "scripts/gffread2EVM.py"
+runTransDecoder: "scripts/runTransDecoder.sh" # Designed for Uppmax
+gff3tofasta: "scripts/gffutils2fasta.py" # (v. 1.31) Available at https://github.com/SLAment/Genomics/blob/master/GenomeAnnotation/gffutils2fasta.py
+GffgenesIDFix: "scripts/GffgenesIDFix.py" # Brute force naming
+GFFnumerator: "scripts/GFFnumerator.py"
+gff3addproduct: "scripts/gff3addproduct.py" # Also brute force
+
+## Training files
+snapHMM: "hmms/PaWa28m_PacBioChrPilon.hmm"
+GeneMarkMod: "hmms/gmhmm.mod"
+
+## Renaming gene models parameters
+# In the same order as the samples of all genomes where AllSamples = sampleslongreads + samplesillu
+periden: [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 90, 93, 93] # Identity threshold to decide if something is an ortholog
+sppcode: [Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pa, Pb, Pc, Pc] # Name appended to the gene names, like Pa_5_10 in P. anserina --> Pc_5_10 in P. comata
+
+MINSIZE: 50000 # Min size of a contig to be annotated
+
+## Known gene products
+geneproducts: "data/KnownProducts.txt"
+```
 
 ## Building the environment
 
