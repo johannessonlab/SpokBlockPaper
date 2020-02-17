@@ -67,6 +67,8 @@ First, to get an idea of how the pipeline looks like we can make a rulegraph:
 
     $ snakemake --snakefile PaTEs.smk --configfile PaTEs_config.yml --rulegraph | dot -Tpng > rulegraph.png
 
+![rulegraph](rulegraph.png "rulegraph of PaTEs.smk")
+
 Run the pipeline:
 
     $ screen -R PaTEs
