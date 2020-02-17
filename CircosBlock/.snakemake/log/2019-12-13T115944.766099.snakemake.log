@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 233 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/SpokBlockPaper/CircosBlock/CircosBlock.smk:
-Missing input files for rule TEhostbed:
-/home/lore/data/FinalAssemblies/PaWa137m.repeatmasker.gff

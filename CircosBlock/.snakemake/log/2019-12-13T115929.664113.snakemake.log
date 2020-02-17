@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 167 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/SpokBlockPaper/CircosBlock/CircosBlock.smk:
-Missing input files for rule blockTEtrack:
-data/PaWa137m_nice_SpokBlock_Slice_5790592_6038100.gff
