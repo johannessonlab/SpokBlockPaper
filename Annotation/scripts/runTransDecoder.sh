@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH -A b2015200
+#SBATCH -A XXXXXXX
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 02:00:00
-#SBATCH --mail-user sandra.ament@evobio.eu
+#SBATCH --mail-user xxxxxxx@xxxx
 #SBATCH --mail-type=ALL
 
 # ================ runTransDecoder =================
@@ -21,8 +21,6 @@
 
 
 # --- Variables ---
-# TransDecoderPATH="/proj/b2015200/tools/TransDecoder/TransDecoder-3.0.1" # Old local
-# New conda installation $ conda install -c bioconda transdecoder=5.5.0=0
 VERSION="2.0"
 # -----------------
 
