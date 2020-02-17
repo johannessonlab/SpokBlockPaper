@@ -2,7 +2,7 @@
 
 A pipeline to produce Circos plots with the alignment of a Spok block to a full genome of a *Podospora* strain. In the paper we use the strain PaWa137m, which has the biggest block, for the main figure. We map its own block to itself, but the pipeline could in principle map any block to any strain.
 
-I took the final ("nice") assemblies and then extracted the contigs that correspond to chromosomes. I also tried to order them following the P. anserina order. 
+I took the final ("nice") assemblies and then extracted the contigs that correspond to chromosomes. I also tried to order them following the *P. anserina* order. 
 
 ## Building the environment
 
@@ -53,7 +53,7 @@ blockgff: "data/PaWa137m_nice_SpokBlock_Slice_5790592_6038100.gff" # In coordina
 # I did this like:
 # $ python GFFSlicer.py /PaWa137m_nice_SpokBlock.gff 5790592 6038100
 # https://github.com/SLAment/Genomics/blob/master/GenomeAnnotation/GFFSlicer.py
-# Notice that the coordinates are based 1
+# Notice that the coordinates are base 1
 
 hostTEs: "/home/lore/data/FinalAssemblies/PaWa137m.repeatmasker.gff" # RepeatMasker annotation of the host genome
 hostgenes: "/home/lore/data/FinalAssemblies/PaWa137m.nice-2.00.gff3" # Gene annotation of the host genome
