@@ -97,6 +97,8 @@ First, to get an idea of how the pipeline looks like we can make a rulegraph:
 
     $ snakemake --snakefile PaAnnotation.smk --configfile PaAnnotation_config.yml --rulegraph | dot -Tpng > rulegraph.png
 
+![rulegraph](rulegraph.png "rulegraph of PaAnnotation.smk")
+
 To test that everything seems in order:
 
     $ snakemake --snakefile PaAnnotation.smk --configfile PaAnnotation_config.yml -pn
