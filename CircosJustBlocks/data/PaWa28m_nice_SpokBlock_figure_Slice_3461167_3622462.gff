@@ -1,5 +1,5 @@
 ##gff-version 3
-# Sliced from PaWa28m_nice_SpokBlock_figure.gff using GFFSlicer.py v. 4.01 on 2019-12-09 16:00:14.978834
+# Sliced from PaWa28m_nice_SpokBlock_figure.gff using GFFSlicer.py v. 4.02 on 2020-02-18 11:46:18.128901
 # Manual curation of the Spok block of PaWa58m in the nice assembly
 # for figure
 PaWa28m_chromosome_5	artemis	gene	4	4094	.	+	.	ID=PaWa28m.08725;Name=Kirc;Note=Pa_5_10116_homolog
@@ -17,13 +17,13 @@ PaWa28m_chromosome_5	artemis	exon	1462	1562	.	+	.	ID=PaWa28m.08725-mRNA1-exon4;P
 PaWa28m_chromosome_5	artemis	exon	1623	1966	.	+	.	ID=PaWa28m.08725-mRNA1-exon3;Parent=PaWa28m.08725-mRNA1
 PaWa28m_chromosome_5	artemis	exon	2020	4094	.	+	.	ID=PaWa28m.08725-mRNA1:exon:3;Parent=PaWa28m.08725-mRNA1
 PaWa28m_chromosome_5	artemis	five_prime_UTR	4	2019	.	+	.	ID=PaWa28m.08725-mRNA1-5UTR;Parent=PaWa28m.08725-mRNA1
-PaWa28m_chromosome_5	maker	gene	9712	12927	.	+	.	ID=PaWa28m.08724;Name=Uhura1
+PaWa28m_chromosome_5	maker	gene	9712	12927	.	+	.	ID=PaWa28m.08724;Name=Uhera1
 PaWa28m_chromosome_5	maker	mRNA	9712	12927	.	+	.	ID=PaWa28m.08724-mRNA1;Parent=PaWa28m.08724;Name=genemark-PaWa28m_chromosome_5-processed-gene-36.85-mRNA-1;_AED=0.02;_eAED=0.02;_QI=0|0|0|1|1|1|2|0|1027;_merge_warning=1
 PaWa28m_chromosome_5	maker	CDS	10292	12927	.	+	2	ID=PaWa28m.08724-mRNA1-CDS1;Parent=PaWa28m.08724-mRNA1
 PaWa28m_chromosome_5	maker	CDS	9712	10159	.	+	0	ID=PaWa28m.08724-mRNA1-CDS2;Parent=PaWa28m.08724-mRNA1
 PaWa28m_chromosome_5	maker	exon	10292	12927	.	+	.	ID=PaWa28m.08724-mRNA1-exon1;Parent=PaWa28m.08724-mRNA1
 PaWa28m_chromosome_5	maker	exon	9712	10159	.	+	.	ID=PaWa28m.08724-mRNA1-exon2;Parent=PaWa28m.08724-mRNA1
-PaWa28m_chromosome_5	maker	gene	106172	108592	.	+	.	ID=PaWa28m.08705;Name=Uhura2
+PaWa28m_chromosome_5	maker	gene	106172	108592	.	+	.	ID=PaWa28m.08705;Name=Uhera2
 PaWa28m_chromosome_5	maker	mRNA	106172	108592	.	+	.	ID=PaWa28m.08705-mRNA1;Parent=PaWa28m.08705;Name=genemark-PaWa28m_chromosome_5-processed-gene-35.73-mRNA-1;_AED=0.05;_eAED=0.05;_QI=0|0|0|1|1|1|3|0|728;_merge_warning=1
 PaWa28m_chromosome_5	maker	CDS	107100	108592	.	+	2	ID=PaWa28m.08705-mRNA1-CDS1;Parent=PaWa28m.08705-mRNA1
 PaWa28m_chromosome_5	maker	CDS	106752	106997	.	+	2	ID=PaWa28m.08705-mRNA1-CDS2;Parent=PaWa28m.08705-mRNA1
@@ -38,6 +38,35 @@ PaWa28m_chromosome_5	maker	CDS	96274	98613	.	-	0	ID=PaWa28m.08707-mRNA1-CDS2;Par
 PaWa28m_chromosome_5	maker	exon	98862	98993	.	-	.	ID=PaWa28m.08707-mRNA1-exon1;Parent=PaWa28m.08707-mRNA1
 PaWa28m_chromosome_5	maker	exon	96125	98613	.	-	.	ID=PaWa28m.08707-mRNA1-exon2;Parent=PaWa28m.08707-mRNA1
 PaWa28m_chromosome_5	maker	three_prime_UTR	96125	96273	.	-	.	ID=PaWa28m.08707-mRNA1-three_prime_UTR1;Parent=PaWa28m.08707-mRNA1
+PaWa28m_chromosome_5	artimis	gene	154846	155863	.	+	.	ID=PaWa28m_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Note=SS1G_08066_Sclerotinia_sclerotiorum_homolog;Name=Scoty2;Alias=Pa_6_2445
+PaWa28m_chromosome_5	artimis	mRNA	154846	155863	.	+	.	ID=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	exon	155431	155863	.	+	0	ID=PaWa28m_exon1_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	exon	154846	155375	.	+	0	ID=PaWa28m_exon2_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	CDS	155431	155863	.	+	0	ID=PaWa28m_cds1_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	CDS	154846	155375	.	+	0	ID=PaWa28m_cds2_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	Intron	155376	155430	.	+	.	ID=PaWa28m_intron_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	GeneMark.hmm3	gene	156268	157107	.	+	.	ID=gene01128;Name=Chekof2;Note=Pa_6_2440_homolog
+PaWa28m_chromosome_5	GeneMark.hmm3	mRNA	156268	157107	.	+	.	ID=mRNA01128;Parent=gene01128;Name=GeneMark.mRNA01128
+PaWa28m_chromosome_5	GeneMark.hmm3	exon	156361	157107	.	+	0	ID=exon00002.mRNA01128.1128;Parent=mRNA01128
+PaWa28m_chromosome_5	GeneMark.hmm3	CDS	156361	157107	.	+	0	ID=cds00001.mRNA01128.1128;Parent=mRNA01128
+PaWa28m_chromosome_5	GeneMark.hmm3	Intron	156304	156360	.	+	.	ID=intron00001.mRNA01128.1128;Parent=mRNA01128
+PaWa28m_chromosome_5	GeneMark.hmm3	exon	156268	156303	.	+	0	ID=exon00001.mRNA01128.1128;Parent=mRNA01128
+PaWa28m_chromosome_5	GeneMark.hmm3	CDS	156268	156303	.	+	0	ID=cds00001.mRNA01128.1128;Parent=mRNA01128
+PaWa28m_chromosome_5	artimis	gene	122784	123811	.	-	.	ID=PaWa28m_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Note=SS1G_08066_Sclerotinia_sclerotiorum_homolog;Name=Scoty1;fragment=true;Alias=Pa_6_2445
+PaWa28m_chromosome_5	artimis	mRNA	122784	123811	.	-	.	ID=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	exon	123270	123811	.	-	0	ID=PaWa28m_exon1_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	exon	122784	123216	.	-	1	ID=PaWa28m_exon2_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	CDS	123270	123811	.	-	0	ID=PaWa28m_cds1_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	CDS	122784	123216	.	-	1	ID=PaWa28m_cds2_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	artimis	Intron	123217	123269	.	-	.	ID=PaWa28m_intron_SS1G_08066_Sclerotinia_sclerotiorum_homolog;Parent=PaWa28m_mRNA_SS1G_08066_Sclerotinia_sclerotiorum_homolog
+PaWa28m_chromosome_5	maker	gene	121603	122746	.	-	.	ID=PaWa28m.08699;Name=Chekof1;Note=Pa_6_2440_homolog
+PaWa28m_chromosome_5	maker	mRNA	121603	122746	.	-	.	ID=PaWa28m.08699-mRNA1;Parent=PaWa28m.08699;Name=genemark-PaWa28m_chromosome_5-processed-gene-35.62-mRNA-1;_AED=0.01;_eAED=0.01;_QI=134|1|1|1|1|1|2|233|239;_merge_warning=1
+PaWa28m_chromosome_5	maker	CDS	122583	122612	.	-	0	ID=PaWa28m.08699-mRNA1-CDS1;Parent=PaWa28m.08699-mRNA1
+PaWa28m_chromosome_5	maker	CDS	121836	122525	.	-	0	ID=PaWa28m.08699-mRNA1-CDS2;Parent=PaWa28m.08699-mRNA1
+PaWa28m_chromosome_5	maker	exon	122583	122746	.	-	0	ID=PaWa28m.08699-mRNA1-exon1;Parent=PaWa28m.08699-mRNA1
+PaWa28m_chromosome_5	maker	exon	121603	122525	.	-	0	ID=PaWa28m.08699-mRNA1-exon2;Parent=PaWa28m.08699-mRNA1
+PaWa28m_chromosome_5	maker	five_prime_UTR	122613	122746	.	-	.	ID=PaWa28m.08699-mRNA1-five_prime_UTR1;Parent=PaWa28m.08699-mRNA1
+PaWa28m_chromosome_5	maker	three_prime_UTR	121603	121835	.	-	.	ID=PaWa28m.08699-mRNA1-three_prime_UTR1;Parent=PaWa28m.08699-mRNA1
 PaWa28m_chromosome_5	RepeatMasker	similarity	161058	161295	11.3	+	.	Target "Motif:Schoutedenella" 1 231
 PaWa28m_chromosome_5	RepeatMasker	similarity	159686	160048	20.3	-	.	Target "Motif:Nephelobates_LTR" 4 323
 PaWa28m_chromosome_5	RepeatMasker	similarity	159554	159887	28.3	+	.	Target "Motif:Atelopus_LTR" 41 364
