@@ -157,7 +157,7 @@ rule makelinks_mummer:
 		threads = 1,
 	shell:
 		"""
-		cat {input} | awk '{{ print $10,$1,$2,$11,$3,$4,"color=lgreen_a5"}}' > {output}
+		cat {input} | awk '{{ print $10,$1,$2,$11,$3,$4,"color=green_a5"}}' > {output}
 		"""
 		# http://circos.ca/documentation/tutorials/recipes/complex_histograms/configuration
 		# http://circos.ca/documentation/tutorials/recipes/heatmap_links/
