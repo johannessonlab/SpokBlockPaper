@@ -37,7 +37,7 @@ rule all:
 
 # ---------------
 rule blastdbs:
-	""" Make a database of the Nanopore and SPAdes* assemblies """
+	""" Make a database of the assemblies """
 	input:
 		assembly = "data/genomes/{sample}.fa",
 	output:
