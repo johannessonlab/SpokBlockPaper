@@ -2,7 +2,7 @@
 
 The genomes to be annotated must be in a folder `data/genomes/`. So from the working path, a given sample looks like `data/genomes/{sample}.fa`, where `sample` comes from the configuration file.
 
-It also needs a folder `scripts` with the script `repeatModelerPipeline4.pl`.
+It also needs a folder `scripts` with the script `repeatModelerPipeline4.pl` available [here](https://github.com/genomicrocosm/physaliaTEcourse/blob/master/Practical3_Manual_curation/repeatModelerPipeline4.pl).
 
 So the necessary files are (that can be modified in the configuration file):
 

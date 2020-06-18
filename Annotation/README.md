@@ -5,7 +5,7 @@ I designed this pipeline to run in [Uppmax](https://uppmax.uu.se/), but if one i
 ## The data
 The genome assemblies must be already in the path `data/genomes/` with a format such as `data/genomes/strain.fa`, where `strain` stands for the strain code as in the configuration file.
 
-The reference genome of *P. anserina* (strain S), must also be there. I was originally published by [Espagne et al. (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441463/), and improved in the Joint Genome Institute MycoCosm [website](https://genome.jgi.doe.gov/programs/fungi/index.jsf) under the name Podan2. There is a Podan3, but as far as I can tell is the same assembly. It's available also [here](https://github.com/johannessonlab/SpokBlockPaper/blob/master/GettingTElibrary/data/genomes/Podan2.fa). For this pipeline it must be present in `data/genomes/Podan2.fa`
+The reference genome of *P. anserina* (strain S), must also be there. It was originally published by [Espagne et al. (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441463/), and improved in the Joint Genome Institute MycoCosm [website](https://genome.jgi.doe.gov/programs/fungi/index.jsf) under the name Podan2. There is a Podan3, but as far as I can tell is the same assembly. It's available also [here](https://github.com/johannessonlab/SpokBlockPaper/blob/master/GettingTElibrary/data/genomes/Podan2.fa). For this pipeline it must be present in `data/genomes/Podan2.fa`
 
 Likewise, the RNAseq data sets must be in the path `data/rnaseq/rnasample_postQC.1.fq.gz`, where `rnasample` matches the code in the configuration file.
 
