@@ -38,6 +38,23 @@ Equivalently, you can do it manually:
     $ conda install r-cowplot=1.0.0 # it comes with ggplot2 3.1.1
     $ conda install r-tidyr=1.1.0 # included dplyr 1.0.0 
 
+## Configuration file
+
+The pipeline depends on a configuration file with the path to the assemblies, the name of the strains and the kmers, and the path to the plotting script (provided here in the repo). It should look like so:
+
+```yaml
+# Samples
+SampleIDs: ["Podan2"]
+
+path2assemblies: "path/to/assemblies" # Assume files are called {sample}*.fa*
+
+kmers: ["AGGTAG", "GGGTAG"]
+
+## Scripts
+KmerCounts: "scripts/KmerCounts.R"
+KmerDist: "scripts/KmerDist.R"
+```
+
 ## Run pipeline in Johannesson's server
 
 Get into the folder:
