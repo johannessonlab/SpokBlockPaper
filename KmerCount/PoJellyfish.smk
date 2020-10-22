@@ -3,7 +3,7 @@
 from Bio.Seq import Seq
 from glob import glob
 
-### PoJellyfish: Extracting the kmers of the Podospora species to find the TSD of the Spok block
+### PoJellyfish: Producing the distribution of kmers of a given size in *Podospora* genomes
 #############################################################################
 # Pipeline to calculate the distribution of k-mers (substring) of length six
 # in the genome(s) of Podospora species using Jellyfish
