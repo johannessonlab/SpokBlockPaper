@@ -2,6 +2,8 @@
 
 Pipeline to calculate the distribution of k-mers (substring) of length six in the genome(s) of *Podospora* species using [Jellyfish](https://github.com/gmarcais/Jellyfish/tree/master/doc).
 
+The pipeline was tested in Unix environments.
+
 ## Building the environment
 
 As usual, I used a conda environment. However, this time I provide a `yaml` file containing the necessary dependencies. It looks like such:
