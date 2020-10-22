@@ -57,10 +57,6 @@ KmerDist: "scripts/KmerDist.R"
 
 ## Run pipeline in Johannesson's server
 
-Get into the folder:
-
-    $ cd /mnt/sda/johannesson_lab/podospora/3_SpokBlockPaper/5_KmerCount
-
 First, to get an idea of how the pipeline looks like we can make a rulegraph. In MacOS you might need to install this first:
  
     $ conda install -c pkgs/main graphviz=2.40.1
