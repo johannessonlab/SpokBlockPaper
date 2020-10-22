@@ -70,4 +70,4 @@ If all it's good, finally run the pipeline:
 
 The pipeline produces a plot per strain per kmers of a given size: a distribution of all kmers of length X, where X is the length of the kmers given in the configuration file. If kmers of different length are given, then there will be a distribution for each. If there are, say, two kmers of the same length, they will be marked in the final distribution plot together. In the paper we only showed that on Podan2 because it's very similar between strains:
 
-![rulegraph](rulegraph.png "Podan2_kmer_hist_k6.png")
+![Distribution](Podan2_kmer_hist_k6.png "Podan2_kmer_hist_k6.png")
