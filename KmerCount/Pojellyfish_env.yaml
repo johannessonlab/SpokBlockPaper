@@ -1,0 +1,12 @@
+name: pojellyfish
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+  - r
+dependencies:
+  - snakemake-minimal=5.4.4
+  - jellyfish=2.2.10
+  - biopython=1.72
+  - r-cowplot=1.0.0 # it comes with ggplot2 3.1.1
+  - r-tidyr=1.1.0 # included dplyr 1.0.0
