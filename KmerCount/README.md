@@ -1,4 +1,4 @@
-# PoJellyfish: Extracting the kmers of the Podospora species to find the TSD of the Spok block
+# PoJellyfish: Extracting the kmers of the *Podospora* species to find the TSD of the *Spok* block
 
 Pipeline to calculate the distribution of k-mers (substring) of length six in the genome(s) of *Podospora* species using [Jellyfish](https://github.com/gmarcais/Jellyfish/tree/master/doc).
 
