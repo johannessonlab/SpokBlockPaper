@@ -51,7 +51,7 @@ otherblocks: "data/OtherBlocks.fa" # a fasta file with the sequence of other rep
 blockgff: "data/PaWa137m.nice.SpokBlock_Slice_5790592_6038100.gff" # In coordinates of the block, not of the host genome
 # With coordinates adjusted to match the block alone (not the position in the original assembly).
 # I did this like:
-# $ python GFFSlicer.py /PaWa137m_nice_SpokBlock.gff 5790592 6038100
+# $ python GFFSlicer.py data/PaWa137m.nice.SpokBlock.gff 5790592 6038100
 # https://github.com/SLAment/Genomics/blob/master/GenomeAnnotation/GFFSlicer.py
 # Notice that the coordinates are base 1
 
