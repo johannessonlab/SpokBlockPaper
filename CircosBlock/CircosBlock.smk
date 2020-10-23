@@ -197,7 +197,8 @@ rule blockGenesTrack:
 		seqname=$(grep '>' {input.block} | sed 's/>//')
 		
 		# Get genes into a track format
-		grep -P '\\tgene\\t' {input.blockgff} | awk -v seq="$seqname" '{{ann=$9; label=gensub(/ID=(.+)=(Pa_)?(.+)/, "\\\\2", "g", ann); if( label == "Pa_") {{print seq,$4,$5,"fill_color=orange"}} else {{print seq,$4,$5,"fill_color=dpurple"}} }}' > {output} 
+		grep -P '\\tgene\\t' {input.blockgff} | awk -v seq="$seqname" '{{ann=$9; label=gensub(/ID=(.+)=(Pa_[0-9]_[0-9]+)?(_.+)/, "\\\\2", "g", ann); if( label ~ "Pa_") {{print seq,$4,$5,"fill_color=orange"}} else {{print seq,$4,$5,"fill_color=dpurple"}} }}' > {output} 
+		# x ~ y   True if the string x matches the regexp denoted by y 
 		"""
 # ------------ Distribution of TEs in the host ------------
 
