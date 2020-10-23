@@ -122,7 +122,7 @@ PaWa137m_SpokBlock	blastx	CDS	47325	47612	.	+	0	ID=Psk-9.00041-mRNA1-CDS1;Parent
 PaWa137m_SpokBlock	blastx	exon	47325	47612	.	+	.	ID=Psk-9.00041-mRNA1-exon1;Parent=Psk-9.00041-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	48671	48866	12.8	-	.	ID=Psk-9.00042;Name=Centrolene_LTR;Note=1_183;color=#4b5f81
 PaWa137m_SpokBlock	artemis	gene	50333	53950	.	+	.	ID=Psk-9.00043;Name=Uhera2;color=#990066;pseudogene=unprocessed		
-PaWa137m_SpokBlock	artemis	mRNA	50333	53950	.	+	.	ID=Psk-9.00043-mRNA1;Parent=Psk-9.00043;Name=GeneMark.mRNA01852;color=#990066	
+PaWa137m_SpokBlock	artemis	mRNA	50333	53950	.	+	.	ID=Psk-9.00043-mRNA1;Parent=Psk-9.00043;Name=Uhera2;color=#990066	
 PaWa137m_SpokBlock	artemis	five_prime_UTR	50333	50446	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR1;Parent=Psk-9.00043-mRNA1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	50550	50633	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR2;Parent=Psk-9.00043-mRNA1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	50704	50759	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR3;Parent=Psk-9.00043-mRNA1
