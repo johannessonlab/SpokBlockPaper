@@ -9,7 +9,7 @@ host: "data/PcWa139m_chrs.fa" # Chosen strain, without mitochondrial scaffold!
 otherblocks: "data/OtherBlocks.fa" # a fasta file with the sequence of other representative blocks to define the conserved bits (from TSD to TSD)
 
 # Annotations
-blockgff: "data/PaWa137m_nice_SpokBlock_Slice_5790592_6038100.gff" # In coordinates of the block, not of the host genome
+blockgff: "data/PaWa137m.nice.SpokBlock_Slice_5790592_6038100.gff" # In coordinates of the block, not of the host genome
 # With coordinates adjusted to match the block alone (not the position in the original assembly).
 # I did this like:
 # $ python GFFSlicer.py PaWa137m_nice_SpokBlock.gff 5790592 6038100
