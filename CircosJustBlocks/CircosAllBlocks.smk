@@ -133,7 +133,7 @@ rule genetrack:
 	shell:
 		"""
 		# Get genes into a track format
-		grep -P '\\tgene\\t' {input} | awk -v seq={wildcards.sample} '{{ann=$9; label=gensub(/ID=(.+)=(Pa_)?(.+)/, "\\\\2", "g", ann); if( label == "Pa_") {{print seq,$4,$5,"fill_color=orange"}} else {{print seq,$4,$5,"fill_color=dpurple"}} }}' > {output} 
+		grep -P '\\tgene\\t' {input} | awk -v seq={wildcards.sample} '{{ann=$9; label=gensub(/ID=(.+)=(Pa_[0-9]_[0-9]+)?(_.+)/, "\\\\2", "g", ann); if( label ~ "Pa_") {{print seq,$4,$5,"fill_color=orange"}} else {{print seq,$4,$5,"fill_color=dpurple"}} }}' > {output} 
 		"""
 		# We used CDS instead of genes because Kirc is very broken by TEs in PcWa139m
 
