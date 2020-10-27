@@ -1,6 +1,6 @@
 ##gff-version 3
-# Sliced from PaWa137m.nice.SpokBlock_LA_crew.gff3 using GFFSlicer.py v. 4.10 on 2020-10-27 15:28:00.612500
-# Subset of /Users/sandralorena/Dropbox/PhD_UU/Analyses/Annotation/ManualAnnotation/PaWa137m.nice.SpokBlock_LA.gff3 extracted with GFFSubset.py v. 2.00 on 2020-10-27 15:25:04.739197
+# Sliced from PaWa137m.nice.SpokBlock_LA_crew.gff3 using GFFSlicer.py v. 4.10 on 2020-10-27 17:26:18.672353
+# Subset of /Users/sandralorena/Dropbox/PhD_UU/Analyses/Annotation/ManualAnnotation/PaWa137m.nice.SpokBlock_LA.gff3 extracted with GFFSubset.py v. 2.00 on 2020-10-27 17:25:37.670807
 PaWa137m_chromosome_1.2	GeneMark.hmm3	gene	4	4091	.	+	.	ID=Psk-9.00003;Name=Kirc;Note=Pa_5_10116_homolog;color=#cc9933
 PaWa137m_chromosome_1.2	GeneMark.hmm3	mRNA	4	4091	.	+	.	ID=Psk-9.00003-mRNA1;Name=Kirc;color=#cc9933;Parent=Psk-9.00003
 PaWa137m_chromosome_1.2	GeneMark.hmm3	five_prime_UTR	4	774	.	+	.	ID=Psk-9.00003-mRNA1-five_prime_UTR1;Parent=Psk-9.00003-mRNA1
@@ -37,10 +37,9 @@ PaWa137m_chromosome_1.2	artemis	mRNA	50333	53950	.	+	.	ID=Psk-9.00043-mRNA1;Name
 PaWa137m_chromosome_1.2	artemis	five_prime_UTR	50333	50446	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR1;Parent=Psk-9.00043-mRNA1
 PaWa137m_chromosome_1.2	artemis	five_prime_UTR	50550	50633	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR2;Parent=Psk-9.00043-mRNA1
 PaWa137m_chromosome_1.2	artemis	five_prime_UTR	50704	50759	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR3;Parent=Psk-9.00043-mRNA1
-PaWa137m_chromosome_1.2	artemis	CDS	50760	51602	.	+	0	ID=Psk-9.00043-mRNA1-CDS1;Parent=Psk-9.00043-mRNA1		
-PaWa137m_chromosome_1.2	artemis	exon	50760	51602	.	+	.	ID=Psk-9.00043-mRNA1-exon1;Parent=Psk-9.00043-mRNA1
-PaWa137m_chromosome_1.2	artemis	CDS	51602	53950	.	+	0	ID=Psk-9.00043-mRNA1-CDS2;Parent=Psk-9.00043-mRNA1
-PaWa137m_chromosome_1.2	artemis	exon	51602	53950	.	+	.	ID=Psk-9.00043-mRNA1-exon2;Parent=Psk-9.00043-mRNA1
+PaWa137m_chromosome_1.2	artemis	CDS	50760	53950	.	+	0	ID=Psk-9.00043-mRNA1-CDS1;Parent=Psk-9.00043-mRNA1		
+PaWa137m_chromosome_1.2	artemis	exon	50760	53950	.	+	.	ID=Psk-9.00043-mRNA1-exon1;Parent=Psk-9.00043-mRNA1
+PaWa137m_chromosome_1.2	manual	sequence_feature	51603	51603	.	+	.	ID=Psk-9.00043-mRNA1-sequence_feature2;Note=frameshift -1;color=#841607;Parent=Psk-9.00043-mRNA1
 PaWa137m_chromosome_1.2	blastn	gene	201719	202736	.	+	.	ID=Psk-9.00145;Name=Scoty;Note=SS1G_08066_Sclerotinia_sclerotiorum_homolog,Pa_6_8905_homolog;color=#720e0e
 PaWa137m_chromosome_1.2	blastn	CDS	201719	202248	.	+	0	ID=Psk-9.00145-mRNA1-CDS1;Parent=Psk-9.00145-mRNA1
 PaWa137m_chromosome_1.2	blastn	mRNA	201719	202736	.	+	.	ID=Psk-9.00145-mRNA1;color=#720e0e;Parent=Psk-9.00145

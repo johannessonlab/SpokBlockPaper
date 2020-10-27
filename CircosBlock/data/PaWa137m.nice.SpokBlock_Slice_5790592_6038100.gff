@@ -1,8 +1,8 @@
 ##gff-version 3
-# Sliced from PaWa137m_nice_SpokBlock_LA.gff3 using GFFSlicer.py v. 4.10 on 2020-10-23 12:43:25.942490
+# Sliced from PaWa137m.nice.SpokBlock_LA.gff3 using GFFSlicer.py v. 4.10 on 2020-10-27 17:15:35.858360
 # Manual curation of the Spok block of PaWa137m in the nice assembly
 # Original file PaWa137m_nice_SpokBlock_LA.gff3 modified with GFFnummerator.py v. 2.00 on 2020-10-06 18:03:21.145013
-# Last update: 2020-10-23
+# Last update: 2020-10-27
 PaWa137m_SpokBlock	RepeatMasker	repeat	4	371	 9.5	-	.	ID=Psk-9.00001;Name=Bufo;Note=73_463;color=#4b5f81
 PaWa137m_SpokBlock	GeneMark.hmm3	gene	4	4091	.	+	.	ID=Psk-9.00003;Name=Kirc;Note=Pa_5_10116_homolog;color=#cc9933
 PaWa137m_SpokBlock	GeneMark.hmm3	mRNA	4	4091	.	+	.	ID=Psk-9.00003-mRNA1;Parent=Psk-9.00003;Name=Kirc;color=#cc9933
@@ -10,19 +10,19 @@ PaWa137m_SpokBlock	GeneMark.hmm3	five_prime_UTR	4	774	.	+	.	ID=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	375	557	 8.7	-	.	ID=Psk-9.00002;Name=Bufo;Note=2_187;color=#4b5f81
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	658	812	.	+	0	ID=Psk-9.00003-mRNA1-CDS1;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	658	812	.	+	.	ID=Psk-9.00003-mRNA1-exon1;Parent=Psk-9.00003-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	intron	813	862	.	+	0	ID=Psk-9.00003-mRNA1-intron1;Parent=Psk-9.00003-mRNA1
+PaWa137m_SpokBlock	GeneMark.hmm3	intron	813	862	.	+	0	ID=Psk-9.00003-mRNA1-intron1;Parent=Psk-9.00003-mRNA1;color=#cc9933
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	863	1070	.	+	1	ID=Psk-9.00003-mRNA1-CDS2;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	863	1070	.	+	.	ID=Psk-9.00003-mRNA1-exon2;Parent=Psk-9.00003-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	intron	1071	1128	.	+	1	ID=Psk-9.00003-mRNA1-intron2;Parent=Psk-9.00003-mRNA1
+PaWa137m_SpokBlock	GeneMark.hmm3	intron	1071	1128	.	+	1	ID=Psk-9.00003-mRNA1-intron2;Parent=Psk-9.00003-mRNA1;color=#cc9933
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	1129	1395	.	+	0	ID=Psk-9.00003-mRNA1-CDS3;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	1129	1395	.	+	.	ID=Psk-9.00003-mRNA1-exon3;Parent=Psk-9.00003-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	intron	1396	1458	.	+	0	ID=Psk-9.00003-mRNA1-intron3;Parent=Psk-9.00003-mRNA1
+PaWa137m_SpokBlock	GeneMark.hmm3	intron	1396	1458	.	+	0	ID=Psk-9.00003-mRNA1-intron3;Parent=Psk-9.00003-mRNA1;color=#cc9933
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	1459	1559	.	+	0	ID=Psk-9.00003-mRNA1-CDS4;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	1459	1559	.	+	.	ID=Psk-9.00003-mRNA1-exon4;Parent=Psk-9.00003-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	intron	1560	1619	.	+	0	ID=Psk-9.00003-mRNA1-intron4;Parent=Psk-9.00003-mRNA1
+PaWa137m_SpokBlock	GeneMark.hmm3	intron	1560	1619	.	+	0	ID=Psk-9.00003-mRNA1-intron4;Parent=Psk-9.00003-mRNA1;color=#cc9933
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	1620	1963	.	+	1	ID=Psk-9.00003-mRNA1-CDS5;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	1620	1963	.	+	.	ID=Psk-9.00003-mRNA1-exon5;Parent=Psk-9.00003-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	intron	1964	2016	.	+	1	ID=Psk-9.00003-mRNA1-intron5;Parent=Psk-9.00003-mRNA1
+PaWa137m_SpokBlock	GeneMark.hmm3	intron	1964	2016	.	+	1	ID=Psk-9.00003-mRNA1-intron5;Parent=Psk-9.00003-mRNA1;color=#cc9933
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	2017	4091	.	+	2	ID=Psk-9.00003-mRNA1-CDS6;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	2017	4091	.	+	.	ID=Psk-9.00003-mRNA1-exon6;Parent=Psk-9.00003-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	4860	5035	15.9	+	.	ID=Psk-9.00005;Name=Allophryne;Note=11_287;color=#4b5f81
@@ -33,18 +33,12 @@ PaWa137m_SpokBlock	artemis	mRNA	9218	12899	.	+	.	ID=Psk-9.00004-mRNA1;Parent=Psk
 PaWa137m_SpokBlock	artemis	five_prime_UTR	9218	9395	.	+	.	ID=Psk-9.00004-mRNA1-five_prime_UTR1;Parent=Psk-9.00004-mRNA1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	9499	9582	.	+	.	ID=Psk-9.00004-mRNA1-five_prime_UTR2;Parent=Psk-9.00004-mRNA1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	9653	9708	.	+	.	ID=Psk-9.00004-mRNA1-five_prime_UTR3;Parent=Psk-9.00004-mRNA1
-PaWa137m_SpokBlock	artemis	CDS	9709	10551	.	+	0	ID=Psk-9.00004-mRNA1-CDS2;Parent=Psk-9.00004-mRNA1
-PaWa137m_SpokBlock	artemis	exon	9709	10551	.	+	.	ID=Psk-9.00004-mRNA1-exon2;Parent=Psk-9.00004-mRNA1
+PaWa137m_SpokBlock	artemis	CDS	9709	12899	.	+	0	ID=Psk-9.00004-mRNA1-CDS1;Parent=Psk-9.00004-mRNA1
+PaWa137m_SpokBlock	artemis	exon	9709	12899	.	+	.	ID=Psk-9.00004-mRNA1-exon1;Parent=Psk-9.00004-mRNA1
 PaWa137m_SpokBlock	manual	sequence_feature	10232	10232	.	+	.	ID=Psk-9.00004-mRNA1-sequence_feature1;Parent=Psk-9.00004-mRNA1;Note=mRNA modification;color=#841607
-PaWa137m_SpokBlock	artemis	CDS	10551	11357	.	+	2	ID=Psk-9.00004-mRNA1-CDS3;Parent=Psk-9.00004-mRNA1
-PaWa137m_SpokBlock	artemis	exon	10551	11357	.	+	.	ID=Psk-9.00004-mRNA1-exon3;Parent=Psk-9.00004-mRNA1
 PaWa137m_SpokBlock	manual	sequence_feature	10551	10551	.	+	.	ID=Psk-9.00004-mRNA1-sequence_feature2;Parent=Psk-9.00004-mRNA1;Note=frameshift -1;color=#841607
 PaWa137m_SpokBlock	manual	sequence_feature	11358	11358	.	+	.	ID=Psk-9.00004-mRNA1-sequence_feature3;Parent=Psk-9.00004-mRNA1;Note=frameshift +1;color=#841607
-PaWa137m_SpokBlock	artemis	CDS	11359	11484	.	+	0	ID=Psk-9.00004-mRNA1-CDS4;Parent=Psk-9.00004-mRNA1
-PaWa137m_SpokBlock	artemis	exon	11359	11484	.	+	.	ID=Psk-9.00004-mRNA1-exon4;Parent=Psk-9.00004-mRNA1
 PaWa137m_SpokBlock	manual	sequence_feature	11485	11485	.	+	.	ID=Psk-9.00004-mRNA1-sequence_feature4;Parent=Psk-9.00004-mRNA1;Note=frameshift +2;color=#841607
-PaWa137m_SpokBlock	artemis	CDS	11487	12899	.	+	0	ID=Psk-9.00004-mRNA1-CDS1;Parent=Psk-9.00004-mRNA1
-PaWa137m_SpokBlock	artemis	exon	11487	12899	.	+	.	ID=Psk-9.00004-mRNA1-exon1;Parent=Psk-9.00004-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	13155	13185	18.2	+	.	ID=Psk-9.00008;Name=(CCCATC)n;Note=1_31;color=#cacbd3
 PaWa137m_SpokBlock	maker	gene	13207	14679	.	-	.	ID=Psk-9.00009;Name=PpBr36_10652_Pyricularia_pennisetigena
 PaWa137m_SpokBlock	maker	mRNA	13207	14679	100	-	.	ID=Psk-9.00009-mRNA1;Parent=Psk-9.00009;Name=PpBr36_10652_Pyricularia_pennisetigena
@@ -112,7 +106,7 @@ PaWa137m_SpokBlock	artemis	intron	42845	42913	.	-	0	ID=Psk-9.00038-mRNA1-intron1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	42914	43395	.	-	.	ID=Psk-9.00038-mRNA1-five_prime_UTR2;Parent=Psk-9.00038-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	43399	43466	16.2	-	.	ID=Psk-9.00039;Name=Grenouille_LTR;Note=1_68;color=#4b5f81
 PaWa137m_SpokBlock	artemis	gene	43487	45076	.	+	.	ID=Psk-9.00040;Name=Unknown1
-PaWa137m_SpokBlock	artemis	mRNA	43487	45076	.	+	.	ID=Psk-9.00040-mRNA1;Parent=Psk-9.00040;Name=Unknown1	
+PaWa137m_SpokBlock	artemis	mRNA	43487	45076	.	+	.	ID=Psk-9.00040-mRNA1;Parent=Psk-9.00040;Name=Unknown1
 PaWa137m_SpokBlock	artemis	exon	43487	44036	.	+	.	ID=Psk-9.00040-mRNA1-exon1;Parent=Psk-9.00040-mRNA1
 PaWa137m_SpokBlock	artemis	exon	44100	44571	.	+	.	ID=Psk-9.00040-mRNA1-exon2;Parent=Psk-9.00040-mRNA1
 PaWa137m_SpokBlock	artemis	exon	44635	45076	.	+	.	ID=Psk-9.00040-mRNA1-exon3;Parent=Psk-9.00040-mRNA1
@@ -121,18 +115,17 @@ PaWa137m_SpokBlock	blastx	mRNA	47325	47612	.	+	.	ID=Psk-9.00041-mRNA1;Parent=Psk
 PaWa137m_SpokBlock	blastx	CDS	47325	47612	.	+	0	ID=Psk-9.00041-mRNA1-CDS1;Parent=Psk-9.00041-mRNA1
 PaWa137m_SpokBlock	blastx	exon	47325	47612	.	+	.	ID=Psk-9.00041-mRNA1-exon1;Parent=Psk-9.00041-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	48671	48866	12.8	-	.	ID=Psk-9.00042;Name=Centrolene_LTR;Note=1_183;color=#4b5f81
-PaWa137m_SpokBlock	artemis	gene	50333	53950	.	+	.	ID=Psk-9.00043;Name=Uhera2;color=#990066;pseudogene=unprocessed		
-PaWa137m_SpokBlock	artemis	mRNA	50333	53950	.	+	.	ID=Psk-9.00043-mRNA1;Parent=Psk-9.00043;Name=Uhera2;color=#990066	
+PaWa137m_SpokBlock	artemis	gene	50333	53950	.	+	.	ID=Psk-9.00043;Name=Uhera2;color=#990066;pseudogene=unprocessed
+PaWa137m_SpokBlock	artemis	mRNA	50333	53950	.	+	.	ID=Psk-9.00043-mRNA1;Parent=Psk-9.00043;Name=Uhera2;color=#990066
 PaWa137m_SpokBlock	artemis	five_prime_UTR	50333	50446	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR1;Parent=Psk-9.00043-mRNA1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	50550	50633	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR2;Parent=Psk-9.00043-mRNA1
 PaWa137m_SpokBlock	artemis	five_prime_UTR	50704	50759	.	+	.	ID=Psk-9.00043-mRNA1-five_prime_UTR3;Parent=Psk-9.00043-mRNA1
-PaWa137m_SpokBlock	artemis	CDS	50760	51602	.	+	0	ID=Psk-9.00043-mRNA1-CDS1;Parent=Psk-9.00043-mRNA1		
-PaWa137m_SpokBlock	artemis	exon	50760	51602	.	+	.	ID=Psk-9.00043-mRNA1-exon1;Parent=Psk-9.00043-mRNA1
-PaWa137m_SpokBlock	artemis	CDS	51602	53950	.	+	0	ID=Psk-9.00043-mRNA1-CDS2;Parent=Psk-9.00043-mRNA1
-PaWa137m_SpokBlock	artemis	exon	51602	53950	.	+	.	ID=Psk-9.00043-mRNA1-exon2;Parent=Psk-9.00043-mRNA1
-PaWa137m_SpokBlock	blastx	gene	54304	54825	.	-	.	ID=Psk-9.00044;Name=Pa_1_14730_fragment;fragment=true	
+PaWa137m_SpokBlock	manual	sequence_feature	51603	51603	.	+	.	ID=Psk-9.00043-mRNA1-sequence_feature2;Parent=Psk-9.00043-mRNA1;Note=frameshift -1;color=#841607
+PaWa137m_SpokBlock	artemis	CDS	50760	53950	.	+	0	ID=Psk-9.00043-mRNA1-CDS1;Parent=Psk-9.00043-mRNA1
+PaWa137m_SpokBlock	artemis	exon	50760	53950	.	+	.	ID=Psk-9.00043-mRNA1-exon1;Parent=Psk-9.00043-mRNA1
+PaWa137m_SpokBlock	blastx	gene	54304	54825	.	-	.	ID=Psk-9.00044;Name=Pa_1_14730_fragment;fragment=true
 PaWa137m_SpokBlock	blastx	mRNA	54304	54825	.	-	.	ID=Psk-9.00044-mRNA1;Parent=Psk-9.00044
-PaWa137m_SpokBlock	blastx	CDS	54304	54825	.	-	0	ID=Psk-9.00044-mRNA1-CDS1;Parent=Psk-9.00044-mRNA1	
+PaWa137m_SpokBlock	blastx	CDS	54304	54825	.	-	0	ID=Psk-9.00044-mRNA1-CDS1;Parent=Psk-9.00044-mRNA1
 PaWa137m_SpokBlock	blastx	exon	54304	54825	.	-	.	ID=Psk-9.00044-mRNA1-exon1;Parent=Psk-9.00044-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	57450	57482	20.9	+	.	ID=Psk-9.00045;Name=(GTGTGG)n;Note=1_33;color=#cacbd3
 PaWa137m_SpokBlock	GeneMark.hmm3	gene	59438	59740	.	+	.	ID=Psk-9.00046;Name=Pa_6_9560_Fragment
@@ -250,8 +243,8 @@ PaWa137m_SpokBlock	GeneMark.hmm3	intron	103489	103542	.	-	1	ID=Psk-9.00075-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	103543	103796	.	-	0	ID=Psk-9.00075-mRNA1-CDS2;Parent=Psk-9.00075-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	103543	103796	.	-	.	ID=Psk-9.00075-mRNA1-exon2;Parent=Psk-9.00075-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	105115	105192	16.7	+	.	ID=Psk-9.00076;Name=Krote_LTR;Note=64_141;color=#4b5f81
-PaWa137m_SpokBlock	protein2genome	gene	105374	105619	.	+	.	ID=Psk-9.00077;Name=Pa_6_2440_fragment;fragment=true
-PaWa137m_SpokBlock	protein2genome	mRNA	105374	105619	.	+	.	ID=Psk-9.00077-mRNA1;Name=Pa_6_2440_fragment;Parent=Psk-9.00077
+PaWa137m_SpokBlock	protein2genome	gene	105374	105619	.	+	.	ID=Psk-9.00077;Name=Chekof_fragment;fragment=true;Note=Pa_6_2440_homolog;color=#d2a311
+PaWa137m_SpokBlock	protein2genome	mRNA	105374	105619	.	+	.	ID=Psk-9.00077-mRNA1;Name=Chekof_fragment;Parent=Psk-9.00077;color=#d2a311
 PaWa137m_SpokBlock	protein2genome	CDS	105374	105619	.	+	0	ID=Psk-9.00077-mRNA1-CDS1;Parent=Psk-9.00077-mRNA1
 PaWa137m_SpokBlock	protein2genome	exon	105374	105619	.	+	.	ID=Psk-9.00077-mRNA1-exon1;Parent=Psk-9.00077-mRNA1
 PaWa137m_SpokBlock	protein2genome	gene	107205	108091	.	+	.	ID=Psk-9.00078;Name=MBR_09427_Metarhizium_brunneum_fragment;fragment=true
@@ -486,17 +479,17 @@ PaWa137m_SpokBlock	artemis	CDS	195434	195577	.	+	0	ID=Psk-9.00142-mRNA1-CDS5;Par
 PaWa137m_SpokBlock	artemis	exon	195434	195577	.	+	.	ID=Psk-9.00142-mRNA1-exon5;Parent=Psk-9.00142-mRNA1
 PaWa137m_SpokBlock	RepeatMasker	repeat	196644	198316	 3.3	-	.	ID=Psk-9.00143;Name=Pelobate;Note=271_1948;color=#4b5f81
 PaWa137m_SpokBlock	RepeatMasker	repeat	199086	199109	 9.1	+	.	ID=Psk-9.00144;Name=(GGAG)n;Note=1_25;color=#cacbd3
-PaWa137m_SpokBlock	blastn	gene	201719	202736	.	+	.	ID=Psk-9.00145;Note=SS1G_08066_Sclerotinia_sclerotiorum_homolog;Name=Scoty;Alias=Pa_6_2445;color=#d2a311
-PaWa137m_SpokBlock	blastn	mRNA	201719	202736	.	+	.	ID=Psk-9.00145-mRNA1;Parent=Psk-9.00145;color=#d2a311
+PaWa137m_SpokBlock	blastn	gene	201719	202736	.	+	.	ID=Psk-9.00145;Note=SS1G_08066_Sclerotinia_sclerotiorum_homolog;Name=Scoty;Note=Pa_6_8905_homolog;color=#720e0e
+PaWa137m_SpokBlock	blastn	mRNA	201719	202736	.	+	.	ID=Psk-9.00145-mRNA1;Parent=Psk-9.00145;color=#720e0e
 PaWa137m_SpokBlock	blastn	CDS	201719	202248	.	+	0	ID=Psk-9.00145-mRNA1-CDS1;Parent=Psk-9.00145-mRNA1
 PaWa137m_SpokBlock	blastn	exon	201719	202248	.	+	0	ID=Psk-9.00145-mRNA1-exon1;Parent=Psk-9.00145-mRNA1
 PaWa137m_SpokBlock	blastn	CDS	202304	202736	.	+	1	ID=Psk-9.00145-mRNA1-CDS2;Parent=Psk-9.00145-mRNA1
 PaWa137m_SpokBlock	blastn	exon	202304	202736	.	+	1	ID=Psk-9.00145-mRNA1-exon2;Parent=Psk-9.00145-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	gene	203141	203980	.	+	.	ID=Psk-9.00146;Name=Chekof;Note=Pa_6_2440_homolog;color=#720e0e
-PaWa137m_SpokBlock	GeneMark.hmm3	mRNA	203141	203980	.	+	.	ID=Psk-9.00146-mRNA1;Parent=Psk-9.00146;color=#720e0e
+PaWa137m_SpokBlock	GeneMark.hmm3	gene	203141	203980	.	+	.	ID=Psk-9.00146;Name=Chekof;Note=Pa_6_2440_homolog;color=#d2a311
+PaWa137m_SpokBlock	GeneMark.hmm3	mRNA	203141	203980	.	+	.	ID=Psk-9.00146-mRNA1;Parent=Psk-9.00146;color=#d2a311
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	203141	203176	.	+	0	ID=Psk-9.00146-mRNA1-CDS1;Parent=Psk-9.00146-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	203141	203176	.	+	.	ID=Psk-9.00146-mRNA1-exon1;Parent=Psk-9.00146-mRNA1
-PaWa137m_SpokBlock	GeneMark.hmm3	intron	203177	203233	.	+	0	ID=Psk-9.00146-mRNA1-intron1;Parent=Psk-9.00146-mRNA1
+PaWa137m_SpokBlock	GeneMark.hmm3	intron	203177	203233	.	+	0	ID=Psk-9.00146-mRNA1-intron1;Parent=Psk-9.00146-mRNA1;color=#d2a311
 PaWa137m_SpokBlock	GeneMark.hmm3	CDS	203234	203980	.	+	0	ID=Psk-9.00146-mRNA1-CDS2;Parent=Psk-9.00146-mRNA1
 PaWa137m_SpokBlock	GeneMark.hmm3	exon	203234	203980	.	+	.	ID=Psk-9.00146-mRNA1-exon2;Parent=Psk-9.00146-mRNA1
 PaWa137m_SpokBlock	blastn	gene	204191	204464	.	-	.	ID=Psk-9.00147;fragment=true;Name=Pa_1_1830_fragment
