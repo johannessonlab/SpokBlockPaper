@@ -31,7 +31,7 @@ Some Perl packages are necessary for Circos:
 
 ## The configuration file
 
-The configuration file only contains the path to host genome (PaWa63p) exludig the mitochondrion, and the Spok block of PaWa137m. 
+The configuration file contains the path to a fasta file with all the *Spok* block sequences plus the Wa139's *Enterprise*, from TSD to TSD, and their corresponding annotations. Notice the samples names and the files are in the same order.
         
     $ cat Circos_config.yaml
 ```yaml
@@ -44,8 +44,12 @@ The configuration file only contains the path to host genome (PaWa63p) exludig t
 allblocks: "data/MainBlocks.fa"
 
 # Samples with gene and TE annotation
-samples: ["PcWa139m"]
-gffs: ["data/PcWa139m.nice.spokblock_Slice_328940_367471.gff"] # Both genes and TEs
+samples: ["PaWa137m", "PaWa28m", "PaWa53m", "PaWa58m", "PcWa139m"]
+gffs: ["data/PaWa137m.nice.SpokBlock_LA_crew_Slice_5790592_6038100.gff",
+       "data/PaWa28m.nice.SpokBlock_LA_crew_Slice_3461167_3622462.gff",
+       "data/PaWa53m.nice.SpokBlock_LA_crew_Slice_389477_502882.gff",
+       "data/PaWa58m.nice.SpokBlock_LA_crew_Slice_927484_1094941.gff",
+       "data/PcWa139m.nice.SpokBlock_LA_Slice_328941_367470.gff"] # Both genes and TEs
 ```
 
 ## The Circos file
