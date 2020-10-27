@@ -7,9 +7,9 @@
 allblocks: "data/MainBlocks.fa"
 
 # Samples with gene and TE annotation
-samples: ["PcWa139m", "PaWa28m", "PaWa137m", "PaWa53m", "PaWa58m"]
-gffs: ["data/PcWa139m.nice.spokblock_Slice_328941_367470.gff",
-       "data/PaWa28m_nice_SpokBlock_figure_Slice_3461167_3622462.gff",
-       "data/PaWa137m_nice_SpokBlock_figure_Slice_5790592_6038100.gff",
-       "data/PaWa53m_nice_SpokBlock_figure_Slice_389477_502883.gff",
-       "data/PaWa58m_nice_SpokBlock_figure_Slice_927484_1094941.gff"] # Both genes and TEs
+samples: ["PaWa137m", "PaWa28m", "PaWa53m", "PaWa58m", "PcWa139m"]
+gffs: ["data/PaWa137m.nice.SpokBlock_LA_crew_Slice_5790592_6038100.gff",
+       "data/PaWa28m.nice.SpokBlock_LA_crew_Slice_3461167_3622462.gff",
+       "data/PaWa53m.nice.SpokBlock_LA_crew_Slice_389477_502882.gff",
+       "data/PaWa58m.nice.SpokBlock_LA_crew_Slice_927484_1094941.gff",
+       "data/PcWa139m.nice.SpokBlock_LA_Slice_328941_367470.gff"] # Both genes and TEs
