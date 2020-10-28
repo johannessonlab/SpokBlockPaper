@@ -58,9 +58,9 @@ PaWa28m_chromosome_5	maker	CDS	122583	122612	.	-	0	ID=Psk-2_Wa28.00025-mRNA1-CDS
 PaWa28m_chromosome_5	maker	CDS	121836	122525	.	-	0	ID=Psk-2_Wa28.00025-mRNA1-CDS2;Parent=Psk-2_Wa28.00025-mRNA1
 PaWa28m_chromosome_5	maker	exon	121603	122525	.	-	0	ID=Psk-2_Wa28.00025-mRNA1-exon2;Parent=Psk-2_Wa28.00025-mRNA1
 PaWa28m_chromosome_5	maker	three_prime_UTR	121603	121835	.	-	.	ID=Psk-2_Wa28.00025-mRNA1-three_prime_UTR1;Parent=Psk-2_Wa28.00025-mRNA1
-PaWa28m_chromosome_5	maker	gene	64868	65194	.	+	.	ID=Psk-2_Wa28.00057;Name=Chekof3;Note=Pa_6_2440_homolog;color=#d2a311
+PaWa28m_chromosome_5	maker	gene	64868	65194	.	+	.	ID=Psk-2_Wa28.00057;Name=Chekof_fragment;fragment=true;Note=Pa_6_2440_homolog;color=#d2a311
 PaWa28m_chromosome_5	maker	CDS	64868	65194	.	+	0	ID=Psk-2_Wa28.00057-mRNA1-CDS1;Parent=Psk-2_Wa28.00057-mRNA1
-PaWa28m_chromosome_5	maker	mRNA	64868	65194	100	+	.	ID=Psk-2_Wa28.00057-mRNA1;Name=Chekof3;color=#d2a311;Parent=Psk-2_Wa28.00057
+PaWa28m_chromosome_5	maker	mRNA	64868	65194	100	+	.	ID=Psk-2_Wa28.00057-mRNA1;Name=Chekof_fragment;color=#d2a311;Parent=Psk-2_Wa28.00057
 PaWa28m_chromosome_5	maker	exon	64868	65194	.	+	.	ID=Psk-2_Wa28.00057-mRNA1-exon1;Parent=Psk-2_Wa28.00057-mRNA1
 PaWa28m_chromosome_5	GeneMark.hmm3	gene	96274	98993	.	-	.	ID=Psk-2_Wa28.00037;Name=Spok3;Note=Pa_5_10_homolog;color=#a4cf8a
 PaWa28m_chromosome_5	GeneMark.hmm3	mRNA	96274	98993	.	-	.	ID=Psk-2_Wa28.00037-mRNA1;Name=GeneMark.mRNA01140;color=#a4cf8a;Parent=Psk-2_Wa28.00037
