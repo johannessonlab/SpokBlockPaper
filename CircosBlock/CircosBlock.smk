@@ -41,7 +41,7 @@ rule makekaryotype:
 		samtools faidx {input.host}
 		samtools faidx {input.block}
 
-		cat {input.host}.fai | awk '{{seq=$1; label=gensub(/(.+)chromosome_([\.0-9]*)/, "chr\\\\2", "g", seq); print "chr","-",$1,label,1,$2,"grey"'}} > {output}
+		cat {input.host}.fai | awk '{{seq=$1; label=gensub(/(.+)chromosome_([\.0-9]*)/, "Chr\\\\2", "g", seq); print "chr","-",$1,label,1,$2,"grey"'}} > {output}
 		cat {input.block}.fai | awk {{'print "chr","-",$1,$1,1,$2,"vdgrey"'}} >> {output}
 
 		rm {input.host}.fai
