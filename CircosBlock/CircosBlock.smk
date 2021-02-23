@@ -6,7 +6,7 @@
 # ==================================================
 # Sandra Lorena Ament Velasquez
 # Johannesson Lab, Evolutionary Biology Center, Uppsala University, Sweden
-# 2019/11/28 - 2019/12/13
+# 2019/11/28 - 2019/12/13 - 2021/02/23
 # +++++++++++++++++++++++++++++++++++++++++++++++++
 # Version 1
 
@@ -23,6 +23,7 @@ hostgenes = config["hostgenes"]
 rule all:
 	input:
 		"circos/circos.png",
+		"results/TEcontent.txt" # A table of repeat content in the reference genome and block, for funsies
 
 # ------------ Karyotype ------------
 
@@ -426,7 +427,7 @@ rule blockbed:
 		"""
 
 rule genomecov_blocks:
-	""" Use BEDtools genomecov to produce a distribution of TEs along the host genome """
+	""" Use BEDtools genomecov to produce a distribution of conservation along the reference block """
 	input:
 		block = "tracks/block.genome",
 		# block = "tracks/blockwins.bed",
