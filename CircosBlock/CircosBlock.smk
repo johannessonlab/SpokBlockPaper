@@ -414,8 +414,7 @@ rule blockbed:
 	input:
 		block
 	output:
-		temp("tracks/block.genome")
-		# temp("tracks/block.bed")
+		temp("tracks/block.genome") # This is not a normal bed file, it only has the length of the contigs
 	params:
 		threads = 1,
 	shell:
@@ -430,7 +429,6 @@ rule genomecov_blocks:
 	""" Use BEDtools genomecov to produce a distribution of conservation along the reference block """
 	input:
 		block = "tracks/block.genome",
-		# block = "tracks/blockwins.bed",
 		otherblocks = "tracks/Blocks_collapsed.bed",
 	output:
 		"tracks/blocksconservation.txt"
@@ -448,10 +446,11 @@ rule tableTEcontent:
 	input:
 		chrs = "tracks/host.bed",
 		tes = "tracks/hostTEs.bed",
-		block = "tracks/block.bed",
+		block = "tracks/block.genome",
 		tesblock = "tracks/BlockTEs.txt",
 	output:
 		tesblock = temp("temp/BlockTEs.bed"),
+		theblock = temp("temp/block.bed"),
 		tecontent = "results/TEcontent.txt"
 	params:
 		threads = 1,
@@ -464,7 +463,8 @@ rule tableTEcontent:
 		bedtools coverage -a {input.chrs} -b {input.tes} | awk '{{ print $1,$2,$3,$7 }}' > {output.tecontent}
 		
 		# Block
-		bedtools coverage -a {input.block} -b {output.tesblock} | awk '{{ print $1,$2,$3,$7 }}' >> {output.tecontent}
+		cat {input.block} | awk '{{ print $1"\\t"1"\\t"$2 }}' > {output.theblock}
+		bedtools coverage -a {output.theblock} -b {output.tesblock} | awk '{{ print $1,$2,$3,$7 }}' >> {output.tecontent}
 		"""	
 
 # ------------ Run Circos ------------
