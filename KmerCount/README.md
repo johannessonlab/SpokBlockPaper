@@ -53,7 +53,6 @@ path2assemblies: "path/to/assemblies" # Assume files are called {sample}*.fa*
 kmers: ["AGGTAG", "GGGTAG"]
 
 ## Scripts
-KmerCounts: "scripts/KmerCounts.R"
 KmerDist: "scripts/KmerDist.R"
 ```
 
