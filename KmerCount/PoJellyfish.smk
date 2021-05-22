@@ -19,7 +19,6 @@ from glob import glob
 samples = config["SampleIDs"]
 path2assemblies = config["path2assemblies"]
 kmers = config["kmers"]
-KmerCounts = config["KmerCounts"]
 KmerDist = config["KmerDist"]
 # -------------------------------------------------
 
